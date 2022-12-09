@@ -1,0 +1,5190 @@
+{
+  "assetAdministrationShells": [
+    {
+      "hasDataSpecification": [],
+      "asset": {
+        "keys": [
+          {
+            "type": "Asset",
+            "local": true,
+            "value": "https://example.com/ids/asset/6270_0112_0112_3677",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "submodels": [
+        {
+          "keys": [
+            {
+              "type": "Submodel",
+              "local": true,
+              "value": "https://example.com/ids/sm/6483_0112_0112_9446",
+              "index": 0,
+              "idType": "IRI"
+            }
+          ]
+        },
+        {
+          "keys": [
+            {
+              "type": "Submodel",
+              "local": true,
+              "value": "https://example.com/ids/sm/5093_0112_0112_7782",
+              "index": 0,
+              "idType": "IRI"
+            }
+          ]
+        },
+        {
+          "keys": [
+            {
+              "type": "Submodel",
+              "local": true,
+              "value": "https://example.com/ids/sm/4144_0112_0112_4341",
+              "index": 0,
+              "idType": "IRI"
+            }
+          ]
+        },
+        {
+          "keys": [
+            {
+              "type": "Submodel",
+              "local": true,
+              "value": "https://example.com/ids/sm/2351_1112_0112_1457",
+              "index": 0,
+              "idType": "IRI"
+            }
+          ]
+        }
+      ],
+      "conceptDictionaries": [],
+      "identification": {
+        "idType": "IRI",
+        "id": "https://example.com/ids/aas/3220_0112_0112_8947"
+      },
+      "idShort": "RaspberryPiZeroWH",
+      "category": "CONSTANT",
+      "modelType": {
+        "name": "AssetAdministrationShell"
+      },
+      "views": []
+    }
+  ],
+  "assets": [
+    {
+      "hasDataSpecification": [],
+      "assetIdentificationModelRef": {
+        "keys": []
+      },
+      "identification": {
+        "idType": "IRI",
+        "id": "https://example.com/ids/asset/6270_0112_0112_3677"
+      },
+      "idShort": "RaspberryPiZero",
+      "modelType": {
+        "name": "Asset"
+      },
+      "kind": "Instance"
+    }
+  ],
+  "submodels": [
+    {
+      "semanticId": {
+        "keys": [
+          {
+            "type": "Submodel",
+            "local": false,
+            "value": "https://www.hsu-hh.de/aut/aas/identification",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "qualifiers": [],
+      "hasDataSpecification": [],
+      "identification": {
+        "idType": "IRI",
+        "id": "https://example.com/ids/sm/6483_0112_0112_9446"
+      },
+      "idShort": "Identification",
+      "category": "CONSTANT",
+      "modelType": {
+        "name": "Submodel"
+      },
+      "kind": "Instance",
+      "submodelElements": [
+        {
+          "value": "Raspberry Pi Trading",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAO677#002",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ManufacturerName",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAP796#004",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ManufacturerIdProvider",
+          "category": "CONSTANT",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAO676#003",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ManufacturerTypId",
+          "category": "CONSTANT",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAW338#001",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ManufacturerTypName",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAU734#001",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ManufacturerTypDescription",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "Raspberry Pi Trading",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAO735#003",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "SupplierName",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAY813#001",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "SupplierId",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "www.company.com/ids/cd/7183_0272_7091_7264",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "SupplierIdProvider",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAO736#004",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "SupplierTypId",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAM551#002",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "SupplierTypName",
+          "category": "CONSTANT",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAU730#001",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "SupplierTypDescription",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAU731#001",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "TypClass",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "eclass",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "www.company.com/ids/cd/4135_0272_7091_2192",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ClassificationSystem",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "www.company.com/ids/cd/3175_0272_7091_0469",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "SecondaryKeyTyp",
+          "category": "CONSTANT",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "mimeType": "image/png",
+          "value": "",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "www.company.com/ids/cd/4401_1272_7091_3437",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "TypThumbnail",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "File"
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "www.company.com/ids/cd/7373_4082_7091_2893",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "AssetId",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "www.company.com/ids/cd/9544_4082_7091_8596",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "InstanceId",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAQ196#001",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ChargeId",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "www.company.com/ids/cd/3195_4082_7091_9039",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "SecondaryKeyInstance",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAR972#002",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ManufacturingDate",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "www.company.com/ids/cd/4370_5082_7091_1975",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "DeviceRevision",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "www.company.com/ids/cd/2190_5082_7091_3557",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "SoftwareRevision",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "www.company.com/ids/cd/3401_5082_7091_6886",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "HardwareRevision",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "mimeType": "image/png",
+          "value": "",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "www.company.com/ids/cd/3121_5082_7091_1060",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "QrCode",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "File"
+          },
+          "kind": "Instance"
+        },
+        {
+          "ordered": false,
+          "allowDuplicates": false,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://www.hsu-hh.de/aut/aas/contactinfo",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ContactInfo01",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "SubmodelElementCollection"
+          },
+          "value": [
+            {
+              "value": "",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "0173-1#02-AAO735#003",
+                    "index": 0,
+                    "idType": "IRDI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "Name",
+              "category": "PARAMETER",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "value": "Manufacturer",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://www.hsu-hh.de/aut/aas/role",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "Role",
+              "category": "PARAMETER",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "ordered": false,
+              "allowDuplicates": false,
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://www.hsu-hh.de/aut/aas/physicaladdress",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "PhysicalAddress",
+              "category": "PARAMETER",
+              "modelType": {
+                "name": "SubmodelElementCollection"
+              },
+              "value": [
+                {
+                  "value": "UK",
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "ConceptDescription",
+                        "local": true,
+                        "value": "0173-1#02-AAO730#001",
+                        "index": 0,
+                        "idType": "IRDI"
+                      }
+                    ]
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "CountryCode",
+                  "category": "PARAMETER",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "string"
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "",
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "ConceptDescription",
+                        "local": true,
+                        "value": "https://www.hsu-hh.de/aut/aas/street",
+                        "index": 0,
+                        "idType": "IRI"
+                      }
+                    ]
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Street",
+                  "category": "PARAMETER",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "string"
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "",
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "ConceptDescription",
+                        "local": true,
+                        "value": "https://www.hsu-hh.de/aut/aas/postalcode",
+                        "index": 0,
+                        "idType": "IRI"
+                      }
+                    ]
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "PostalCode",
+                  "category": "PARAMETER",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "string"
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "",
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "ConceptDescription",
+                        "local": true,
+                        "value": "https://www.hsu-hh.de/aut/aas/city",
+                        "index": 0,
+                        "idType": "IRI"
+                      }
+                    ]
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "City",
+                  "category": "PARAMETER",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "string"
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "",
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "ConceptDescription",
+                        "local": true,
+                        "value": "https://www.hsu-hh.de/aut/aas/statecounty",
+                        "index": 0,
+                        "idType": "IRI"
+                      }
+                    ]
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "StateCounty",
+                  "category": "PARAMETER",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "string"
+                    }
+                  },
+                  "kind": "Instance"
+                }
+              ],
+              "kind": "Instance"
+            },
+            {
+              "value": "",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://www.hsu-hh.de/aut/aas/email",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "Email",
+              "category": "PARAMETER",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "value": "https://www.raspberrypi.com/contact/",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "0173-1#02-AAO694#001",
+                    "index": 0,
+                    "idType": "IRDI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "URL",
+              "category": "PARAMETER",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "value": "",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://www.hsu-hh.de/aut/aas/phone",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "Phone",
+              "category": "PARAMETER",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "value": "",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://www.hsu-hh.de/aut/aas/fax",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "Fax",
+              "category": "PARAMETER",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Instance"
+            }
+          ],
+          "kind": "Instance"
+        },
+        {
+          "mimeType": "image/png",
+          "value": "",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "www.company.com/ids/cd/5232_8082_7091_1138",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "CompanyLogo",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "File"
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAO694#001",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "URL",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "Tim Sokollek",
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Assembler",
+          "category": "CONSTANT",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        }
+      ]
+    },
+    {
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "local": false,
+            "value": "https://www.hsu-hh.de/aut/aas/nameplate",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "qualifiers": [],
+      "hasDataSpecification": [],
+      "identification": {
+        "idType": "IRI",
+        "id": "https://example.com/ids/sm/5093_0112_0112_7782"
+      },
+      "idShort": "Nameplate",
+      "category": "CONSTANT",
+      "modelType": {
+        "name": "Submodel"
+      },
+      "kind": "Instance",
+      "submodelElements": [
+        {
+          "value": "Raspberry Pi Trading",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAO677#002",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ManufacturerName",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "Raspberry Pi Zero W",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAW338#001",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ManufacturerTypName",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "ordered": false,
+          "allowDuplicates": false,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://www.hsu-hh.de/aut/aas/physicaladdress",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "PhysicalAddress01",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "SubmodelElementCollection"
+          },
+          "value": [
+            {
+              "value": "UK",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "0173-1#02-AAO730#001",
+                    "index": 0,
+                    "idType": "IRDI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "CountryCode",
+              "category": "PARAMETER",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "value": "Cowley Road",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://www.hsu-hh.de/aut/aas/street",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "Street",
+              "category": "PARAMETER",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "value": "",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://www.hsu-hh.de/aut/aas/postalcode",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "PostalCode",
+              "category": "PARAMETER",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "value": "Cambridge",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://www.hsu-hh.de/aut/aas/city",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "City",
+              "category": "PARAMETER",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "value": "",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://www.hsu-hh.de/aut/aas/statecounty",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "StateCounty",
+              "category": "PARAMETER",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Instance"
+            }
+          ],
+          "kind": "Instance"
+        },
+        {
+          "value": "",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAU731#001",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "TypClass",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "www.company.com/ids/cd/9544_4082_7091_8596",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "SerialNo",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAQ196#001",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ChargeId",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAO841#001",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "CountryOfOrigin",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "2017",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAP906#001",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "YearOfConstruction",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "int"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "ordered": false,
+          "allowDuplicates": false,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://www.hsu-hh.de/aut/aas/productmarking",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Marking_CE",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "SubmodelElementCollection"
+          },
+          "value": [
+            {
+              "value": "",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "0173-1#02-AAX043#001",
+                    "index": 0,
+                    "idType": "IRDI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "CEMarkingPresent",
+              "category": "PARAMETER",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "boolean"
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "mimeType": "image/png",
+              "value": "",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "0173-1#02-AAD005#008",
+                    "index": 0,
+                    "idType": "IRDI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "File",
+              "category": "PARAMETER",
+              "modelType": {
+                "name": "File"
+              },
+              "kind": "Instance"
+            }
+          ],
+          "kind": "Instance"
+        },
+        {
+          "ordered": false,
+          "allowDuplicates": false,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://www.hsu-hh.de/aut/aas/productmarking",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Marking_CRUUS",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "SubmodelElementCollection"
+          },
+          "value": [
+            {
+              "value": "",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "0173-1#02-AAR528#005",
+                    "index": 0,
+                    "idType": "IRDI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "CRUUSLabelingPresent",
+              "category": "PARAMETER",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "boolean"
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "mimeType": "image/png",
+              "value": "",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "0173-1#02-AAD005#008",
+                    "index": 0,
+                    "idType": "IRDI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "File",
+              "category": "PARAMETER",
+              "modelType": {
+                "name": "File"
+              },
+              "kind": "Instance"
+            }
+          ],
+          "kind": "Instance"
+        },
+        {
+          "ordered": false,
+          "allowDuplicates": false,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://www.hsu-hh.de/aut/aas/productmarking",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Marking_RCM",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "SubmodelElementCollection"
+          },
+          "value": [
+            {
+              "value": "",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "0173-1#02-AAR528#005",
+                    "index": 0,
+                    "idType": "IRDI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "RCMLabelingPresent",
+              "category": "PARAMETER",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "boolean"
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "mimeType": "image/png",
+              "value": "",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "0173-1#02-AAD005#008",
+                    "index": 0,
+                    "idType": "IRDI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "File",
+              "category": "PARAMETER",
+              "modelType": {
+                "name": "File"
+              },
+              "kind": "Instance"
+            }
+          ],
+          "kind": "Instance"
+        }
+      ]
+    },
+    {
+      "semanticId": {
+        "keys": [
+          {
+            "type": "Submodel",
+            "local": false,
+            "value": "http://admin-shell.io/vdi/2770/1/0/Documentation",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "qualifiers": [],
+      "hasDataSpecification": [],
+      "identification": {
+        "idType": "IRI",
+        "id": "https://example.com/ids/sm/4144_0112_0112_4341"
+      },
+      "idShort": "Documentation",
+      "modelType": {
+        "name": "Submodel"
+      },
+      "kind": "Instance",
+      "submodelElements": [
+        {
+          "ordered": false,
+          "allowDuplicates": false,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "http://admin-shell.io/vdi/2770/1/0/Document",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Document00",
+          "category": "CONSTANT",
+          "modelType": {
+            "name": "SubmodelElementCollection"
+          },
+          "value": [
+            {
+              "value": "Schematics",
+              "semanticId": {
+                "keys": []
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "DocumentId",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "value": "02-02",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "http://admin-shell.io/vdi/2770/1/0/DocumentClassification/ClassId",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "ClassId",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "value": "Drawings, plans",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "http://admin-shell.io/vdi/2770/1/0/DocumentClassification/ClassName",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "ClassName",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "value": "VDI2770:2018",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "http://admin-shell.io/vdi/2770/1/0/DocumentClassification/ClassificationSystem",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "ClassificationSystem",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "ordered": false,
+              "allowDuplicates": false,
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "http://admin-shell.io/vdi/2770/1/0/DocumentVersion",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "DocumentVersion",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "SubmodelElementCollection"
+              },
+              "value": [
+                {
+                  "value": "1.1",
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "ConceptDescription",
+                        "local": true,
+                        "value": "http://admin-shell.io/vdi/2770/1/0/DocumentVersionId/Val",
+                        "index": 0,
+                        "idType": "IRI"
+                      }
+                    ]
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "DocumentVersionId",
+                  "category": "CONSTANT",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "string"
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "mimeType": "application/pdf",
+                  "value": "/aasx/files/raspberry-pi-zero-w-reduced-schematics_4a21f514.pdf",
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "ConceptDescription",
+                        "local": true,
+                        "value": "http://admin-shell.io/vdi/2770/1/0/StoredDocumentRepresentation/DigitalFile",
+                        "index": 0,
+                        "idType": "IRI"
+                      }
+                    ]
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "DigitalFile01",
+                  "category": "CONSTANT",
+                  "modelType": {
+                    "name": "File"
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "en",
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "ConceptDescription",
+                        "local": true,
+                        "value": "http://admin-shell.io/vdi/2770/1/0/DocumentVersion/Language",
+                        "index": 0,
+                        "idType": "IRI"
+                      }
+                    ]
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Language1",
+                  "category": "CONSTANT",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "string"
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": {
+                    "langString": [
+                      {
+                        "language": "en",
+                        "text": "Schematics"
+                      }
+                    ]
+                  },
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "ConceptDescription",
+                        "local": true,
+                        "value": "http://admin-shell.io/vdi/2770/1/0/Description/Title",
+                        "index": 0,
+                        "idType": "IRI"
+                      }
+                    ]
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Title",
+                  "category": "CONSTANT",
+                  "modelType": {
+                    "name": "MultiLanguageProperty"
+                  },
+                  "kind": "Instance"
+                }
+              ],
+              "kind": "Instance"
+            }
+          ],
+          "kind": "Instance"
+        },
+        {
+          "ordered": false,
+          "allowDuplicates": false,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "http://admin-shell.io/vdi/2770/1/0/Document",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Document01",
+          "category": "CONSTANT",
+          "modelType": {
+            "name": "SubmodelElementCollection"
+          },
+          "value": [
+            {
+              "value": "Mechanical Drawing",
+              "semanticId": {
+                "keys": []
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "DocumentId",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "value": "02-02",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "http://admin-shell.io/vdi/2770/1/0/DocumentClassification/ClassId",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "ClassId",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "value": "Drawings, plans",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "http://admin-shell.io/vdi/2770/1/0/DocumentClassification/ClassName",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "ClassName",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "value": "VDI2770:2018",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "http://admin-shell.io/vdi/2770/1/0/DocumentClassification/ClassificationSystem",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "ClassificationSystem",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "ordered": false,
+              "allowDuplicates": false,
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "http://admin-shell.io/vdi/2770/1/0/DocumentVersion",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "DocumentVersion",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "SubmodelElementCollection"
+              },
+              "value": [
+                {
+                  "value": "en",
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "ConceptDescription",
+                        "local": true,
+                        "value": "http://admin-shell.io/vdi/2770/1/0/DocumentVersion/Language",
+                        "index": 0,
+                        "idType": "IRI"
+                      }
+                    ]
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Language1",
+                  "category": "CONSTANT",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "string"
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": {
+                    "langString": [
+                      {
+                        "language": "en",
+                        "text": "Mechanical Drawing"
+                      }
+                    ]
+                  },
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "ConceptDescription",
+                        "local": true,
+                        "value": "http://admin-shell.io/vdi/2770/1/0/Description/Title",
+                        "index": 0,
+                        "idType": "IRI"
+                      }
+                    ]
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Title",
+                  "category": "CONSTANT",
+                  "modelType": {
+                    "name": "MultiLanguageProperty"
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "mimeType": "application/pdf",
+                  "value": "/aasx/files/raspberry-pi-zero-w-mechanical-drawing_dbced2d3.pdf",
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "ConceptDescription",
+                        "local": true,
+                        "value": "http://admin-shell.io/vdi/2770/1/0/StoredDocumentRepresentation/DigitalFile",
+                        "index": 0,
+                        "idType": "IRI"
+                      }
+                    ]
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "DigitalFile01",
+                  "category": "CONSTANT",
+                  "modelType": {
+                    "name": "File"
+                  },
+                  "kind": "Instance"
+                }
+              ],
+              "kind": "Instance"
+            }
+          ],
+          "kind": "Instance"
+        }
+      ]
+    },
+    {
+      "semanticId": {
+        "keys": [
+          {
+            "type": "Submodel",
+            "local": false,
+            "value": "http://admin-shell.io/sandbox/SG2/TechnicalData/Submodel/1/1",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "qualifiers": [],
+      "hasDataSpecification": [],
+      "identification": {
+        "idType": "IRI",
+        "id": "https://example.com/ids/sm/2351_1112_0112_1457"
+      },
+      "idShort": "TechnicalData",
+      "category": "CONSTANT",
+      "modelType": {
+        "name": "Submodel"
+      },
+      "kind": "Instance",
+      "submodelElements": [
+        {
+          "ordered": false,
+          "allowDuplicates": false,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/GeneralInformation/1/1",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "GeneralInformation",
+          "category": "CONSTANT",
+          "modelType": {
+            "name": "SubmodelElementCollection"
+          },
+          "value": [
+            {
+              "value": "Raspberry Pi Foundation",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/ManufacturerName/1/1",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "ManufacturerName",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "mimeType": "image/png",
+              "value": "/aasx/files/RPi-Logo-Landscape-Reg-SCREEN_139da2e7.png",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/ManufacturerLogo/1/1",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "ManufacturerLogo",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "File"
+              },
+              "kind": "Instance"
+            },
+            {
+              "value": "Raspberry Pi Zero W",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/ManufacturerProductDesignation/1/1",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "ManufacturerProductDesignation",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "value": "",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/ManufacturerPartNumber/1/1",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "ManufacturerPartNumber",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "value": "",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/ManufacturerOrderCode/1/1",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "ManufacturerOrderCode",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "mimeType": "image/png",
+              "value": "/aasx/files/9371b539-77d4-47f1-b89b-aa65b23c9833_RPI_ZERO_W_ANGLE_2_REFRESH_d116ac46.png",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/ProductImage/1/1",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "ProductImage01",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "File"
+              },
+              "kind": "Instance"
+            }
+          ],
+          "kind": "Instance"
+        },
+        {
+          "ordered": false,
+          "allowDuplicates": false,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/ProductClassifications/1/1",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ProductClassifications",
+          "category": "CONSTANT",
+          "modelType": {
+            "name": "SubmodelElementCollection"
+          },
+          "value": [
+            {
+              "ordered": false,
+              "allowDuplicates": false,
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/ProductClassificationItem/1/1",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "ProductClassificationItem101",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "SubmodelElementCollection"
+              },
+              "value": [
+                {
+                  "value": "",
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "ConceptDescription",
+                        "local": true,
+                        "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/ProductClassificationSystem/1/1",
+                        "index": 0,
+                        "idType": "IRI"
+                      }
+                    ]
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "ProductClassificationSystem",
+                  "category": "CONSTANT",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "string"
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "",
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "ConceptDescription",
+                        "local": true,
+                        "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/ClassificationSystemVersion/1/1",
+                        "index": 0,
+                        "idType": "IRI"
+                      }
+                    ]
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "ClassificationSystemVersion",
+                  "category": "CONSTANT",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "string"
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "",
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "ConceptDescription",
+                        "local": true,
+                        "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/ProductClassId/1/1",
+                        "index": 0,
+                        "idType": "IRI"
+                      }
+                    ]
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "ProductClassId",
+                  "category": "CONSTANT",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "string"
+                    }
+                  },
+                  "kind": "Instance"
+                }
+              ],
+              "kind": "Instance"
+            }
+          ],
+          "kind": "Instance"
+        },
+        {
+          "ordered": false,
+          "allowDuplicates": false,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/TechnicalProperties/1/1",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "TechnicalProperties",
+          "category": "CONSTANT",
+          "modelType": {
+            "name": "SubmodelElementCollection"
+          },
+          "value": [
+            {
+              "value": "512000",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "0173-1#02-AAC856#008",
+                    "index": 0,
+                    "idType": "IRDI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "SizOfTheRam",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "int"
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "ordered": false,
+              "allowDuplicates": false,
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/MainSection/1/1",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "Processor",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "SubmodelElementCollection"
+              },
+              "value": [
+                {
+                  "value": "1",
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "ConceptDescription",
+                        "local": true,
+                        "value": "0173-1#02-AAR410#001",
+                        "index": 0,
+                        "idType": "IRDI"
+                      }
+                    ]
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "NumOfCpuCor",
+                  "category": "CONSTANT",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "int"
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "1",
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "ConceptDescription",
+                        "local": true,
+                        "value": "0173-1#02-AAR558#003",
+                        "index": 0,
+                        "idType": "IRDI"
+                      }
+                    ]
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "FreOfPro",
+                  "category": "CONSTANT",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "int"
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "ARM11",
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "ConceptDescription",
+                        "local": true,
+                        "value": "0173-1#02-BAB457#005",
+                        "index": 0,
+                        "idType": "IRDI"
+                      }
+                    ]
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "ProArc",
+                  "category": "CONSTANT",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "string"
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "Broadcom BCM2835",
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "ConceptDescription",
+                        "local": true,
+                        "value": "0173-1#02-AAR557#001",
+                        "index": 0,
+                        "idType": "IRDI"
+                      }
+                    ]
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "ProTypDesOfPro",
+                  "category": "CONSTANT",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "string"
+                    }
+                  },
+                  "kind": "Instance"
+                }
+              ],
+              "kind": "Instance",
+              "descriptions": [
+                {
+                  "language": "de",
+                  "text": "Prozessor"
+                },
+                {
+                  "language": "en",
+                  "text": "Processor"
+                }
+              ]
+            },
+            {
+              "ordered": false,
+              "allowDuplicates": false,
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/MainSection/1/1",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "Connectivity",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "SubmodelElementCollection"
+              },
+              "value": [
+                {
+                  "ordered": false,
+                  "allowDuplicates": false,
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "ConceptDescription",
+                        "local": true,
+                        "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/SubSection/1/1",
+                        "index": 0,
+                        "idType": "IRI"
+                      }
+                    ]
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "WifiBluetooth",
+                  "category": "CONSTANT",
+                  "modelType": {
+                    "name": "SubmodelElementCollection"
+                  },
+                  "value": [
+                    {
+                      "value": "1",
+                      "semanticId": {
+                        "keys": [
+                          {
+                            "type": "ConceptDescription",
+                            "local": true,
+                            "value": "0173-1#02-AAS701#001",
+                            "index": 0,
+                            "idType": "IRDI"
+                          }
+                        ]
+                      },
+                      "constraints": [],
+                      "hasDataSpecification": [],
+                      "idShort": "WlaNetConAva",
+                      "category": "CONSTANT",
+                      "modelType": {
+                        "name": "Property"
+                      },
+                      "valueType": {
+                        "dataObjectType": {
+                          "name": "boolean"
+                        }
+                      },
+                      "kind": "Instance"
+                    },
+                    {
+                      "value": "1",
+                      "semanticId": {
+                        "keys": [
+                          {
+                            "type": "ConceptDescription",
+                            "local": true,
+                            "value": "0173-1#02-AAB178#007",
+                            "index": 0,
+                            "idType": "IRDI"
+                          }
+                        ]
+                      },
+                      "constraints": [],
+                      "hasDataSpecification": [],
+                      "idShort": "Wla802StaPos",
+                      "category": "CONSTANT",
+                      "modelType": {
+                        "name": "Property"
+                      },
+                      "valueType": {
+                        "dataObjectType": {
+                          "name": "boolean"
+                        }
+                      },
+                      "kind": "Instance"
+                    },
+                    {
+                      "value": "1",
+                      "semanticId": {
+                        "keys": [
+                          {
+                            "type": "ConceptDescription",
+                            "local": true,
+                            "value": "0173-1#02-AAB177#007",
+                            "index": 0,
+                            "idType": "IRDI"
+                          }
+                        ]
+                      },
+                      "constraints": [],
+                      "hasDataSpecification": [],
+                      "idShort": "BluTraSta",
+                      "category": "CONSTANT",
+                      "modelType": {
+                        "name": "Property"
+                      },
+                      "valueType": {
+                        "dataObjectType": {
+                          "name": "boolean"
+                        }
+                      },
+                      "kind": "Instance"
+                    }
+                  ],
+                  "kind": "Instance",
+                  "descriptions": [
+                    {
+                      "language": "en",
+                      "text": "Wifi and Bluetooth"
+                    },
+                    {
+                      "language": "de",
+                      "text": "WLAN und Bluetooth"
+                    }
+                  ]
+                },
+                {
+                  "ordered": false,
+                  "allowDuplicates": false,
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "ConceptDescription",
+                        "local": true,
+                        "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/SubSection/1/1",
+                        "index": 0,
+                        "idType": "IRI"
+                      }
+                    ]
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "VideoAudio",
+                  "category": "CONSTANT",
+                  "modelType": {
+                    "name": "SubmodelElementCollection"
+                  },
+                  "value": [
+                    {
+                      "value": "1",
+                      "semanticId": {
+                        "keys": [
+                          {
+                            "type": "ConceptDescription",
+                            "local": true,
+                            "value": "0173-1#02-AAG546#001",
+                            "index": 0,
+                            "idType": "IRDI"
+                          }
+                        ]
+                      },
+                      "constraints": [],
+                      "hasDataSpecification": [],
+                      "idShort": "NumOfHdmCon",
+                      "category": "CONSTANT",
+                      "modelType": {
+                        "name": "Property"
+                      },
+                      "valueType": {
+                        "dataObjectType": {
+                          "name": "int"
+                        }
+                      },
+                      "kind": "Instance"
+                    },
+                    {
+                      "value": "1",
+                      "semanticId": {
+                        "keys": [
+                          {
+                            "type": "ConceptDescription",
+                            "local": true,
+                            "value": "0173-1#02-AAL685#004",
+                            "index": 0,
+                            "idType": "IRDI"
+                          }
+                        ]
+                      },
+                      "constraints": [],
+                      "hasDataSpecification": [],
+                      "idShort": "HdmConPre",
+                      "category": "CONSTANT",
+                      "modelType": {
+                        "name": "Property"
+                      },
+                      "valueType": {
+                        "dataObjectType": {
+                          "name": "boolean"
+                        }
+                      },
+                      "kind": "Instance"
+                    }
+                  ],
+                  "kind": "Instance",
+                  "descriptions": [
+                    {
+                      "language": "en",
+                      "text": "Video and Audio"
+                    },
+                    {
+                      "language": "de",
+                      "text": "Video und Audio"
+                    }
+                  ]
+                }
+              ],
+              "kind": "Instance",
+              "descriptions": [
+                {
+                  "language": "en",
+                  "text": "Connectivity"
+                },
+                {
+                  "language": "de",
+                  "text": "Konnektivität"
+                }
+              ]
+            }
+          ],
+          "kind": "Instance"
+        },
+        {
+          "ordered": false,
+          "allowDuplicates": false,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/FurtherInformation/1/1",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "FurtherInformation",
+          "category": "CONSTANT",
+          "modelType": {
+            "name": "SubmodelElementCollection"
+          },
+          "value": [
+            {
+              "value": "",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/TextStatement/1/1",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "TextStatement01",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "value": "2021-10-21",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/ValidDate/1/1",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "ValidDate",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Instance"
+            }
+          ],
+          "kind": "Instance"
+        }
+      ]
+    }
+  ],
+  "conceptDescriptions": [
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://admin-shell.io/sandbox/SG2/TechnicalData/GeneralInformation/1/1"
+      },
+      "administration": {
+        "version": "",
+        "revision": ""
+      },
+      "idShort": "GeneralInformation",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "de",
+                "text": "Generelle Informationen"
+              },
+              {
+                "language": "en",
+                "text": "General information"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN",
+                "text": "General information"
+              },
+              {
+                "language": "DE",
+                "text": "Generelle Informationen"
+              }
+            ],
+            "unit": "",
+            "dataType": "STRING",
+            "definition": [
+              {
+                "language": "de",
+                "text": "Generelle Informationen, zum Beispiel Bestell- und Herstellerinformationen"
+              },
+              {
+                "language": "en",
+                "text": "General information, for example ordering and manufacturer information"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": []
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://admin-shell.io/sandbox/SG2/TechnicalData/ManufacturerName/1/1"
+      },
+      "administration": {
+        "version": "",
+        "revision": ""
+      },
+      "idShort": "ManufacturerName",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "de",
+                "text": "Herstellername"
+              },
+              {
+                "language": "en",
+                "text": "Manufacturer name"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN",
+                "text": "Herstellername"
+              },
+              {
+                "language": "DE",
+                "text": "Manufacturer name"
+              }
+            ],
+            "unit": "",
+            "symbol": "string",
+            "dataType": "STRING",
+            "definition": [
+              {
+                "language": "de",
+                "text": "Bezeichnung für eine natürliche oder juristische Person, die für die Auslegung, Herstellung und Verpackung sowie die Etikettierung eines Produkts im Hinblick auf das 'Inverkehrbringen' im eigenen Namen verantwortlich ist"
+              },
+              {
+                "language": "en",
+                "text": "legally valid designation of the natural or judicial person which is directly responsible for the design, production, packaging and labeling of a product in respect to its being brought into circulation"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": [
+        {
+          "keys": [
+            {
+              "type": "GlobalReference",
+              "local": false,
+              "value": "0173-1#02-AAO677#002",
+              "index": 0,
+              "idType": "IRDI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://admin-shell.io/sandbox/SG2/TechnicalData/ManufacturerLogo/1/1"
+      },
+      "administration": {
+        "version": "",
+        "revision": ""
+      },
+      "idShort": "ManufacturerLogo",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "de",
+                "text": "Herstellerlogo-Datei"
+              },
+              {
+                "language": "en",
+                "text": "File with manufactuer logo"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN",
+                "text": "Herstellerlogo"
+              },
+              {
+                "language": "DE",
+                "text": "Manufactuer logo"
+              }
+            ],
+            "unit": "",
+            "dataType": "STRING",
+            "definition": [
+              {
+                "language": "de",
+                "text": "Bilddatei für Logo des Herstellers im gebräuchlichem Format (.png, .jpg). "
+              },
+              {
+                "language": "en",
+                "text": "Imagefile for logo of manufacturer provided in common format (.png, .jpg). "
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": []
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://admin-shell.io/sandbox/SG2/TechnicalData/ManufacturerProductDesignation/1/1"
+      },
+      "administration": {
+        "version": "",
+        "revision": ""
+      },
+      "idShort": "ManufacturerProductDesignation",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "de",
+                "text": "Herstellerproduktbezeichnung"
+              },
+              {
+                "language": "en",
+                "text": "Manufacturer product designation"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN",
+                "text": "Product designation"
+              },
+              {
+                "language": "DE",
+                "text": "Produktbezeichnung"
+              }
+            ],
+            "unit": "",
+            "dataType": "STRING",
+            "definition": [
+              {
+                "language": "de",
+                "text": "Kurze Beschreibung des Produktes (Kurztext)"
+              },
+              {
+                "language": "en",
+                "text": "Short description of the product (short text)"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": [
+        {
+          "keys": [
+            {
+              "type": "GlobalReference",
+              "local": false,
+              "value": "0173-1#02-AAW338#001",
+              "index": 0,
+              "idType": "IRDI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://admin-shell.io/sandbox/SG2/TechnicalData/ManufacturerPartNumber/1/1"
+      },
+      "administration": {
+        "version": "",
+        "revision": ""
+      },
+      "idShort": "ManufacturerPartNumber",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "de",
+                "text": "Herstellerartikelnummer"
+              },
+              {
+                "language": "en",
+                "text": "product article number of manufacturer"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN",
+                "text": "Manufacturer order code"
+              },
+              {
+                "language": "DE",
+                "text": "Herstellerbestellcode"
+              }
+            ],
+            "unit": "",
+            "dataType": "STRING",
+            "definition": [
+              {
+                "language": "de",
+                "text": "eindeutiger Bestellschlüssel des Herstellers"
+              },
+              {
+                "language": "en",
+                "text": "unique product identifier of the manufacturer"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": [
+        {
+          "keys": [
+            {
+              "type": "GlobalReference",
+              "local": false,
+              "value": "0173-1#02-AAO676#003",
+              "index": 0,
+              "idType": "IRDI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://admin-shell.io/sandbox/SG2/TechnicalData/ManufacturerOrderCode/1/1"
+      },
+      "administration": {
+        "version": "",
+        "revision": ""
+      },
+      "idShort": "ManufacturerOrderCode",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "de",
+                "text": "Eindeutiger Herstellerbestellcode"
+              },
+              {
+                "language": "en",
+                "text": "Unique manufacturer order code"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN",
+                "text": "Manufacturer order code"
+              },
+              {
+                "language": "DE",
+                "text": "Herstellerbestellcode"
+              }
+            ],
+            "unit": "",
+            "dataType": "STRING",
+            "definition": [
+              {
+                "language": "de",
+                "text": "eindeutiger Bestellschlüssel des Herstellers um exakt gleiches Produkt zu bestellen"
+              },
+              {
+                "language": "en",
+                "text": "unique product identifier of the manufacturer sufficient to order exact same produkt"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": [
+        {
+          "keys": [
+            {
+              "type": "GlobalReference",
+              "local": false,
+              "value": "0173-1#02-AAO676#003",
+              "index": 0,
+              "idType": "IRDI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://admin-shell.io/sandbox/SG2/TechnicalData/ProductImage/1/1"
+      },
+      "administration": {
+        "version": "",
+        "revision": ""
+      },
+      "idShort": "ProductImage",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "de",
+                "text": "Bilddatei für Produkt"
+              },
+              {
+                "language": "en",
+                "text": "Imagefile for product"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN",
+                "text": "Product image"
+              },
+              {
+                "language": "DE",
+                "text": "Produktbild"
+              }
+            ],
+            "unit": "",
+            "dataType": "STRING",
+            "definition": [
+              {
+                "language": "de",
+                "text": "Bilddatei für das assozierte Produkt im gebräuchlichem Format (.png, .jpg). "
+              },
+              {
+                "language": "en",
+                "text": "Imagefile for associated product provided in common format (.png, .jpg). "
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": []
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://admin-shell.io/sandbox/SG2/TechnicalData/ProductClassifications/1/1"
+      },
+      "administration": {
+        "version": "",
+        "revision": ""
+      },
+      "idShort": "ProductClassifications",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "de",
+                "text": "Produktklassifizierungen"
+              },
+              {
+                "language": "en",
+                "text": "ProductClassifications"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN",
+                "text": "ProductClassification"
+              },
+              {
+                "language": "DE",
+                "text": "Produktklassifizierung"
+              }
+            ],
+            "unit": "",
+            "dataType": "STRING",
+            "definition": [
+              {
+                "language": "de",
+                "text": "Produktklassifizierungen durch Assoziation mit Produktklassen in gebräuchlichen Klassifizierungssystemen."
+              },
+              {
+                "language": "en",
+                "text": "Product classifications by association with product classes in common classification systems."
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": []
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://admin-shell.io/sandbox/SG2/TechnicalData/ProductClassificationItem/1/1"
+      },
+      "administration": {
+        "version": "",
+        "revision": ""
+      },
+      "idShort": "ProductClassificationItem",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "de",
+                "text": "Einzelne Produktklassifizierung"
+              },
+              {
+                "language": "en",
+                "text": "Single ProductClassification"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN",
+                "text": "ProductClassification"
+              },
+              {
+                "language": "DE",
+                "text": "Produktklassifizierung"
+              }
+            ],
+            "unit": "",
+            "dataType": "STRING",
+            "definition": [
+              {
+                "language": "de",
+                "text": "Einzelne Produktklassifizierung durch Assoziation mit einer Produktklasse"
+              },
+              {
+                "language": "en",
+                "text": "Single product classification by association with product class"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": []
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://admin-shell.io/sandbox/SG2/TechnicalData/ProductClassificationSystem/1/1"
+      },
+      "idShort": "ProductClassificationSystem",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "DE",
+                "text": "Klassifikationssystem"
+              },
+              {
+                "language": "EN",
+                "text": "Classification system"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN",
+                "text": "Classification system"
+              },
+              {
+                "language": "DE",
+                "text": "Klassifikationssystem"
+              }
+            ],
+            "unit": "",
+            "dataType": "STRING",
+            "definition": [
+              {
+                "language": "EN",
+                "text": "Common name of the product classification system"
+              },
+              {
+                "language": "DE",
+                "text": "Gebräuchlicher Name für das Produkt-Klassifikationssystem"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": []
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://admin-shell.io/sandbox/SG2/TechnicalData/ClassificationSystemVersion/1/1"
+      },
+      "idShort": "ClassificationSystemVersion",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "DE",
+                "text": "Versionskennung des Klassifikationssystems"
+              },
+              {
+                "language": "EN",
+                "text": "Verison id  of the classification system"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN",
+                "text": "Version class. system"
+              },
+              {
+                "language": "DE",
+                "text": "Version Klass.-System"
+              }
+            ],
+            "unit": "",
+            "dataType": "STRING",
+            "definition": [
+              {
+                "language": "EN",
+                "text": "Common version identifier of the used classification system"
+              },
+              {
+                "language": "DE",
+                "text": "Gebräuchliche Versionskennung des genutzen Klassifikationssystems"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": []
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://admin-shell.io/sandbox/SG2/TechnicalData/ProductClassId/1/1"
+      },
+      "idShort": "ProductClassId",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "DE",
+                "text": "Produktklasse im System"
+              },
+              {
+                "language": "EN",
+                "text": "Product class in system"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN",
+                "text": "Product class"
+              },
+              {
+                "language": "DE",
+                "text": "Produktklasse "
+              }
+            ],
+            "unit": "",
+            "dataType": "STRING",
+            "definition": [
+              {
+                "language": "EN",
+                "text": "Class of the associated product in the classification system; according to the notation of the system"
+              },
+              {
+                "language": "DE",
+                "text": "Klasse des assoziierten Produktes im Klassifikationssystem; entsprechend der Notationsweise des Systems."
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": []
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://admin-shell.io/sandbox/SG2/TechnicalData/TechnicalProperties/1/1"
+      },
+      "administration": {
+        "version": "",
+        "revision": ""
+      },
+      "idShort": "TechnicalProperties",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "de",
+                "text": "Technische und Produktmerkmale"
+              },
+              {
+                "language": "en",
+                "text": "Technical and product properties"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN",
+                "text": "Properties"
+              },
+              {
+                "language": "DE",
+                "text": "Merkmale"
+              }
+            ],
+            "unit": "",
+            "dataType": "STRING",
+            "definition": [
+              {
+                "language": "de",
+                "text": "Einzelne Merkmale die das Produkt und die technischen Eigenschaften beschreiben"
+              },
+              {
+                "language": "en",
+                "text": "Individual characteristics that describe the product and its technical properties"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": []
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://admin-shell.io/SemanticIdNotAvailable /1/1 "
+      },
+      "administration": {
+        "version": "",
+        "revision": ""
+      },
+      "idShort": "SemanticIdNotAvailable",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "de",
+                "text": "Merkmal ohne SemanticId"
+              },
+              {
+                "language": "en",
+                "text": "Property without SemanticId"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN",
+                "text": "Property without SemanticId"
+              },
+              {
+                "language": "DE",
+                "text": "Merkmal ohne SemanticId"
+              }
+            ],
+            "unit": "",
+            "dataType": "STRING",
+            "definition": [
+              {
+                "language": "de",
+                "text": "Merkmal, welches nicht über ein gebräuchliches Klassifikationssystem beschrieben ist"
+              },
+              {
+                "language": "en",
+                "text": "Property that is not described using a common classification system"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": []
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://admin-shell.io/sandbox/SG2/TechnicalData/MainSection/1/1"
+      },
+      "administration": {
+        "version": "",
+        "revision": ""
+      },
+      "idShort": "MainSection",
+      "category": "CONSTANT",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "de",
+                "text": "Hauptsektion für Merkmale"
+              },
+              {
+                "language": "en",
+                "text": "Main section for properties"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN",
+                "text": "Main section"
+              },
+              {
+                "language": "DE",
+                "text": "Hauptsektion"
+              }
+            ],
+            "unit": "",
+            "dataType": "STRING",
+            "definition": [
+              {
+                "language": "de",
+                "text": "Haupt-Unterteilungsmöglichkeit für Merkmale. Kann über idShort benannt werden."
+              },
+              {
+                "language": "en",
+                "text": "Main subdivision possibility for properties. Can be named via idShort."
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": []
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://admin-shell.io/sandbox/SG2/TechnicalData/SubSection/1/1"
+      },
+      "administration": {
+        "version": "",
+        "revision": ""
+      },
+      "idShort": "SubSection",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "de",
+                "text": "Untersektion für Merkmale"
+              },
+              {
+                "language": "en",
+                "text": "Subsection for properties"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN",
+                "text": "Subsection "
+              },
+              {
+                "language": "DE",
+                "text": "Untersektion "
+              }
+            ],
+            "unit": "",
+            "dataType": "STRING",
+            "definition": [
+              {
+                "language": "de",
+                "text": "Untergeordnete Unterteilungsmöglichkeit für Merkmale. Kann über idShort benannt werden."
+              },
+              {
+                "language": "en",
+                "text": "Subordinate subdivision possibility for properties. Can be named via idShort."
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": []
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://admin-shell.io/sandbox/SG2/TechnicalData/FurtherInformation/1/1"
+      },
+      "administration": {
+        "version": "",
+        "revision": ""
+      },
+      "idShort": "FurtherInformation",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "de",
+                "text": "Weitere Informationen"
+              },
+              {
+                "language": "en",
+                "text": "Further information"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN",
+                "text": "Further information"
+              },
+              {
+                "language": "DE",
+                "text": "Weitere Informationen"
+              }
+            ],
+            "unit": "",
+            "dataType": "STRING",
+            "definition": [
+              {
+                "language": "de",
+                "text": "Weiterführende Informationen zum Produkt, der Gültigkeit der gemachten Angaben und zu diesem Datensatz"
+              },
+              {
+                "language": "en",
+                "text": "Further information on the product, the validity of the information provided and this data record"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": []
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://admin-shell.io/sandbox/SG2/TechnicalData/TextStatement/1/1"
+      },
+      "idShort": "TextStatement",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "DE",
+                "text": "Aussage des Herstellers als Text"
+              },
+              {
+                "language": "EN",
+                "text": "Statement by the manufacturer as text"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN",
+                "text": "Valid on date"
+              },
+              {
+                "language": "DE",
+                "text": "Gültig am"
+              }
+            ],
+            "unit": "",
+            "dataType": "STRING",
+            "definition": [
+              {
+                "language": "EN",
+                "text": "Statement in text form, e.g. scope of validity of the statements."
+              },
+              {
+                "language": "DE",
+                "text": "Aussage in Textform, etwa Gültigkeitsbereich der Aussagen."
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": []
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://admin-shell.io/sandbox/SG2/TechnicalData/ValidDate/1/1"
+      },
+      "idShort": "ValidDate",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "DE",
+                "text": "Informationen gültig am"
+              },
+              {
+                "language": "EN",
+                "text": "Information valid on date"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN",
+                "text": "Valid on date"
+              },
+              {
+                "language": "DE",
+                "text": "Gültig am"
+              }
+            ],
+            "unit": "",
+            "dataType": "DATE",
+            "definition": [
+              {
+                "language": "EN",
+                "text": "Denotes a date on which the data specified in the submodel was valid for the associated product. Approximately: Date of the last update of the data."
+              },
+              {
+                "language": "DE",
+                "text": "Bezeichnet ein Datum, an welchem die im Submodel genannten Daten für das assoziierte Produkt gültig waren. Etwa: Tag der letzten Aktualisierung der Daten."
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": []
+    },
+    {
+      "identification": {
+        "idType": "IRDI",
+        "id": "0173-1#02-AAR558#003"
+      },
+      "administration": {
+        "version": "",
+        "revision": ""
+      },
+      "idShort": "FreOfPro",
+      "category": "CONSTANT",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "de",
+                "text": "Prozessorfrequenz"
+              },
+              {
+                "language": "en",
+                "text": "frequency of processor"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "en",
+                "text": "FreOfPro"
+              }
+            ],
+            "unit": "GHz",
+            "unitId": {
+              "keys": []
+            },
+            "symbol": "",
+            "dataType": "REAL_MEASURE",
+            "definition": [
+              {
+                "language": "de",
+                "text": "Arbeitsgeschwindigkeit des Prozessors (CPU) gibt die Schnelligkeit an, mit der Daten in Computern verarbeitet werden können"
+              },
+              {
+                "language": "en",
+                "text": "operating speed of the processor (CPU) specifies the quickness at which data can be processed in computers"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": [
+        {
+          "keys": [
+            {
+              "type": "GlobalReference",
+              "local": false,
+              "value": "0173-1#02-AAR558#003",
+              "index": 0,
+              "idType": "IRDI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "identification": {
+        "idType": "IRDI",
+        "id": "0173-1#02-AAC856#008"
+      },
+      "administration": {
+        "version": "",
+        "revision": ""
+      },
+      "idShort": "SizOfTheRam",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "de",
+                "text": "Speichergröße des Arbeitsspeichers"
+              },
+              {
+                "language": "de",
+                "text": "Speichergröße des Arbeitsspeichers"
+              },
+              {
+                "language": "en",
+                "text": "Size of the RAM"
+              },
+              {
+                "language": "en",
+                "text": "Size of the RAM"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "en",
+                "text": "SizOfTheRam"
+              }
+            ],
+            "unit": "kB",
+            "unitId": {
+              "keys": []
+            },
+            "valueFormat": "",
+            "dataType": "REAL_MEASURE",
+            "definition": [
+              {
+                "language": "de",
+                "text": "Kapazität des Arbeitsspeichers in Kilobyte"
+              },
+              {
+                "language": "de",
+                "text": "Kapazität des Arbeitsspeichers in Kilobyte"
+              },
+              {
+                "language": "en",
+                "text": "capacity of the RAM in kilobytes"
+              },
+              {
+                "language": "en",
+                "text": "capacity of the RAM in kilobytes"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": [
+        {
+          "keys": [
+            {
+              "type": "GlobalReference",
+              "local": false,
+              "value": "0173-1#02-AAC856#008",
+              "index": 0,
+              "idType": "IRDI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "identification": {
+        "idType": "IRDI",
+        "id": "0173-1#02-AAB177#007"
+      },
+      "administration": {
+        "version": "",
+        "revision": ""
+      },
+      "idShort": "BluTraSta",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "de",
+                "text": "Funkstandard Bluetooth"
+              },
+              {
+                "language": "en",
+                "text": "Bluetooth transmission standard"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "en",
+                "text": "BluTraSta"
+              }
+            ],
+            "unit": "",
+            "dataType": "BOOLEAN",
+            "definition": [
+              {
+                "language": "de",
+                "text": "Industriestandard zur drahtlosen Vernetzung von Geräten über kurze Distanz"
+              },
+              {
+                "language": "en",
+                "text": "Industrial standard according to IEC 802.15.1. for wireless networking over short distance"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": [
+        {
+          "keys": [
+            {
+              "type": "GlobalReference",
+              "local": false,
+              "value": "0173-1#02-AAB177#007",
+              "index": 0,
+              "idType": "IRDI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "identification": {
+        "idType": "IRDI",
+        "id": "0173-1#02-AAB178#007"
+      },
+      "administration": {
+        "version": "",
+        "revision": ""
+      },
+      "idShort": "Wla802StaPos",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "de",
+                "text": "Funkstandard WLAN 802.11 möglich"
+              },
+              {
+                "language": "en",
+                "text": "WLAN 802.11 standard possible"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "en",
+                "text": "Wla802StaPos"
+              }
+            ],
+            "unit": "",
+            "dataType": "BOOLEAN",
+            "definition": [
+              {
+                "language": "de",
+                "text": "Funktion zur zyklische Überwachung der Funkstrecke"
+              },
+              {
+                "language": "en",
+                "text": "Function for cyclic monitoring of transmission path"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": [
+        {
+          "keys": [
+            {
+              "type": "GlobalReference",
+              "local": false,
+              "value": "0173-1#02-AAB178#007",
+              "index": 0,
+              "idType": "IRDI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "identification": {
+        "idType": "IRDI",
+        "id": "0173-1#02-AAS701#001"
+      },
+      "administration": {
+        "version": "",
+        "revision": ""
+      },
+      "idShort": "WlaNetConAva",
+      "category": "CONSTANT",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "de",
+                "text": "WLAN-Netzwerkanbindung verfügbar"
+              },
+              {
+                "language": "de",
+                "text": "WLAN-Netzwerkanbindung verfügbar"
+              },
+              {
+                "language": "de",
+                "text": "WLAN-Netzwerkanbindung verfügbar"
+              },
+              {
+                "language": "en",
+                "text": "WLAN network connection available"
+              },
+              {
+                "language": "en",
+                "text": "WLAN network connection available"
+              },
+              {
+                "language": "en",
+                "text": "WLAN network connection available"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "en",
+                "text": "WlaNetConAva"
+              }
+            ],
+            "unit": "",
+            "unitId": {
+              "keys": []
+            },
+            "dataType": "BOOLEAN",
+            "definition": [
+              {
+                "language": "de",
+                "text": "Datenanbindung des Gerätes an ein verfügbares WLAN kann eingerichtet werden"
+              },
+              {
+                "language": "de",
+                "text": "Datenanbindung des Gerätes an ein verfügbares WLAN kann eingerichtet werden"
+              },
+              {
+                "language": "de",
+                "text": "Datenanbindung des Gerätes an ein verfügbares WLAN kann eingerichtet werden"
+              },
+              {
+                "language": "en",
+                "text": "data link of the unit to an available WLAN can be set up"
+              },
+              {
+                "language": "en",
+                "text": "data link of the unit to an available WLAN can be set up"
+              },
+              {
+                "language": "en",
+                "text": "data link of the unit to an available WLAN can be set up"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": [
+        {
+          "keys": [
+            {
+              "type": "GlobalReference",
+              "local": false,
+              "value": "0173-1#02-AAS701#001",
+              "index": 0,
+              "idType": "IRDI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "identification": {
+        "idType": "IRDI",
+        "id": "0173-1#02-AAL685#004"
+      },
+      "administration": {
+        "version": "",
+        "revision": ""
+      },
+      "idShort": "HdmConPre",
+      "category": "CONSTANT",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "de",
+                "text": "HDMI-Anschluss vorhanden"
+              },
+              {
+                "language": "en",
+                "text": "HDMI-connection present"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN?",
+                "text": "HdmConPre"
+              }
+            ],
+            "unit": "",
+            "dataType": "BOOLEAN",
+            "definition": [
+              {
+                "language": "de",
+                "text": "Angabe, ob ein Receiver über einen HDMI-Anschluss verfügt"
+              },
+              {
+                "language": "en",
+                "text": "whether a receiver has a HDMI connector or not"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": [
+        {
+          "keys": [
+            {
+              "type": "GlobalReference",
+              "local": false,
+              "value": "0173-1#02-AAL685#004",
+              "index": 0,
+              "idType": "IRDI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "identification": {
+        "idType": "IRDI",
+        "id": "0173-1#02-AAG546#001"
+      },
+      "administration": {
+        "version": "",
+        "revision": ""
+      },
+      "idShort": "NumOfHdmCon",
+      "category": "CONSTANT",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "de",
+                "text": "Anzahl der HDMI-Anschlüsse"
+              },
+              {
+                "language": "de",
+                "text": "Anzahl der HDMI-Anschlüsse"
+              },
+              {
+                "language": "en",
+                "text": "number of HDMI-connections"
+              },
+              {
+                "language": "en",
+                "text": "number of HDMI-connections"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "en",
+                "text": "NumOfHdmCon"
+              }
+            ],
+            "unit": "",
+            "dataType": "INTEGER_COUNT",
+            "definition": [
+              {
+                "language": "de",
+                "text": "quantitative Angabe über Schnittstellen für volldigitale Übertragung von Audio- und Video-Daten an andere Geräte"
+              },
+              {
+                "language": "de",
+                "text": "quantitative Angabe über Schnittstellen für volldigitale Übertragung von Audio- und Video-Daten an andere Geräte"
+              },
+              {
+                "language": "en",
+                "text": "quantitative specification of interfaces for fully-digital transfer of audio data and video data to other devices"
+              },
+              {
+                "language": "en",
+                "text": "quantitative specification of interfaces for fully-digital transfer of audio data and video data to other devices"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": [
+        {
+          "keys": [
+            {
+              "type": "GlobalReference",
+              "local": false,
+              "value": "0173-1#02-AAG546#001",
+              "index": 0,
+              "idType": "IRDI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "identification": {
+        "idType": "IRDI",
+        "id": "0173-1#02-AAR410#001"
+      },
+      "administration": {
+        "version": "",
+        "revision": ""
+      },
+      "idShort": "NumOfCpuCor",
+      "category": "CONSTANT",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "de",
+                "text": "Anzahl der CPU-Kerne"
+              },
+              {
+                "language": "en",
+                "text": "number of CPU cores"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "en",
+                "text": "NumOfCpuCor"
+              }
+            ],
+            "unit": "",
+            "dataType": "INTEGER_COUNT",
+            "definition": [
+              {
+                "language": "de",
+                "text": "Quantitative Angabe zur Menge der Kerne eines Prozessors"
+              },
+              {
+                "language": "en",
+                "text": "quantitative information about the amount of the cores of a processor"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": [
+        {
+          "keys": [
+            {
+              "type": "GlobalReference",
+              "local": false,
+              "value": "0173-1#02-AAR410#001",
+              "index": 0,
+              "idType": "IRDI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "identification": {
+        "idType": "IRDI",
+        "id": "0173-1#02-BAB457#005"
+      },
+      "administration": {
+        "version": "",
+        "revision": ""
+      },
+      "idShort": "ProArc",
+      "category": "CONSTANT",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "de",
+                "text": "Prozessorarchitektur"
+              },
+              {
+                "language": "en",
+                "text": "Processor architecture"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "de",
+                "text": "ProArc"
+              }
+            ],
+            "unit": "",
+            "dataType": "STRING",
+            "definition": [
+              {
+                "language": "de",
+                "text": "Festlegung, welche Maschinenbefehle und welche Datenstrukturen ein Prozessor ausführen und verarbeiten kann"
+              },
+              {
+                "language": "en",
+                "text": "Definition as to which machine commands and which data structures can be carried out and processed by a processor"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": [
+        {
+          "keys": [
+            {
+              "type": "GlobalReference",
+              "local": false,
+              "value": "0173-1#02-BAB457#005",
+              "index": 0,
+              "idType": "IRDI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "identification": {
+        "idType": "IRDI",
+        "id": "0173-1#02-AAR557#001"
+      },
+      "administration": {
+        "version": "",
+        "revision": ""
+      },
+      "idShort": "ProTypDesOfPro",
+      "category": "CONSTANT",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "de",
+                "text": "Produkttypbezeichnung des Prozessors"
+              },
+              {
+                "language": "en",
+                "text": "product type description of processor"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "en",
+                "text": "ProTypDesOfPro"
+              }
+            ],
+            "unit": "",
+            "dataType": "STRING",
+            "definition": [
+              {
+                "language": "de",
+                "text": "Name der Produktfamilie oder Variante des Produktes"
+              },
+              {
+                "language": "en",
+                "text": "name of the product family or variant"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": [
+        {
+          "keys": [
+            {
+              "type": "GlobalReference",
+              "local": false,
+              "value": "0173-1#02-AAR557#001",
+              "index": 0,
+              "idType": "IRDI"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
