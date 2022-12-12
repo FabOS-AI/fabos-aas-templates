@@ -15,6 +15,28 @@
               "idType": "IRI"
             }
           ]
+        },
+        {
+          "keys": [
+            {
+              "type": "Submodel",
+              "local": true,
+              "value": "https://example.com/ids/sm/4005_2121_2122_0070",
+              "index": 0,
+              "idType": "IRI"
+            }
+          ]
+        },
+        {
+          "keys": [
+            {
+              "type": "Submodel",
+              "local": true,
+              "value": "https://example.com/ids/sm/6005_2121_2122_3935",
+              "index": 0,
+              "idType": "IRI"
+            }
+          ]
         }
       ],
       "identification": {
@@ -2278,6 +2300,141 @@
           "text": "Submodel containing the nameplate information for software asset and associated product classificatons."
         }
       ]
+    },
+    {
+      "semanticId": {
+        "keys": []
+      },
+      "identification": {
+        "idType": "IRI",
+        "id": "https://example.com/ids/sm/4005_2121_2122_0070"
+      },
+      "idShort": "Requirements",
+      "modelType": {
+        "name": "Submodel"
+      },
+      "kind": "Template",
+      "submodelElements": [
+        {
+          "ordered": false,
+          "allowDuplicates": false,
+          "semanticId": {
+            "keys": []
+          },
+          "idShort": "Constraints",
+          "category": "CONSTANT",
+          "modelType": {
+            "name": "SubmodelElementCollection"
+          },
+          "value": [
+            {
+              "value": "",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "0173-1#02-BAB457#005",
+                    "index": 0,
+                    "idType": "IRDI"
+                  }
+                ]
+              },
+              "idShort": "ProArc",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Instance"
+            }
+          ],
+          "kind": "Instance"
+        },
+        {
+          "ordered": false,
+          "allowDuplicates": true,
+          "semanticId": {
+            "keys": []
+          },
+          "idShort": "Any",
+          "modelType": {
+            "name": "SubmodelElementCollection"
+          },
+          "value": [
+            {
+              "value": "ARM11",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "0173-1#02-BAB457#005",
+                    "index": 0,
+                    "idType": "IRDI"
+                  }
+                ]
+              },
+              "idShort": "ProArc",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "value": "ARM Cortex-A ",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "0173-1#02-BAB457#005",
+                    "index": 0,
+                    "idType": "IRDI"
+                  }
+                ]
+              },
+              "idShort": "ProArc",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Instance"
+            }
+          ],
+          "kind": "Instance"
+        }
+      ]
+    },
+    {
+      "semanticId": {
+        "keys": []
+      },
+      "identification": {
+        "idType": "IRI",
+        "id": "https://example.com/ids/sm/6005_2121_2122_3935"
+      },
+      "idShort": "Deployment",
+      "category": "CONSTANT",
+      "modelType": {
+        "name": "Submodel"
+      },
+      "kind": "Template",
+      "submodelElements": []
     }
   ],
   "conceptDescriptions": [
@@ -3856,6 +4013,78 @@
               "type": "GlobalReference",
               "local": false,
               "value": "0173-1#02-AAM472#006",
+              "index": 0,
+              "idType": "IRDI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "identification": {
+        "idType": "IRDI",
+        "id": "0173-1#02-BAB457#005"
+      },
+      "administration": {
+        "version": "",
+        "revision": "1"
+      },
+      "idShort": "ProcessorArchitecture",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "de",
+                "text": "Prozessorarchitektur"
+              },
+              {
+                "language": "en",
+                "text": "Processor architecture"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "en",
+                "text": "ProArc"
+              }
+            ],
+            "unit": "",
+            "dataType": "STRING",
+            "definition": [
+              {
+                "language": "de",
+                "text": "Festlegung, welche Maschinenbefehle und welche Datenstrukturen ein Prozessor ausführen und verarbeiten kann"
+              },
+              {
+                "language": "en",
+                "text": "Definition as to which machine commands and which data structures can be carried out and processed by a processor"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": [
+        {
+          "keys": [
+            {
+              "type": "GlobalReference",
+              "local": false,
+              "value": "0173-1#02-BAB457#005",
               "index": 0,
               "idType": "IRDI"
             }
