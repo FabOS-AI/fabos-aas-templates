@@ -6201,7 +6201,15 @@
         {
           "value": "",
           "semanticId": {
-            "keys": []
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://example.com/ids/cd/8515_6190_2122_4054",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
           },
           "idShort": "CPUTemperature",
           "category": "VARIABLE",
@@ -8688,6 +8696,37 @@
               }
             ],
             "unit": "%",
+            "dataType": ""
+          }
+        }
+      ]
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://example.com/ids/cd/8515_6190_2122_4054"
+      },
+      "idShort": "CPUTemperature",
+      "category": "VARIABLE",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [],
+            "unit": "°C",
             "dataType": ""
           }
         }
