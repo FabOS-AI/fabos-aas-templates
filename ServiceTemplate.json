@@ -2434,7 +2434,240 @@
         "name": "Submodel"
       },
       "kind": "Template",
-      "submodelElements": []
+      "submodelElements": [
+        {
+          "value": "",
+          "semanticId": {
+            "keys": []
+          },
+          "idShort": "DeploymentType",
+          "category": "CONSTANT",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Template"
+        },
+        {
+          "ordered": false,
+          "allowDuplicates": false,
+          "semanticId": {
+            "keys": []
+          },
+          "idShort": "DockerContainerDeploymentDefinition",
+          "category": "CONSTANT",
+          "modelType": {
+            "name": "SubmodelElementCollection"
+          },
+          "value": [
+            {
+              "value": "",
+              "semanticId": {
+                "keys": []
+              },
+              "idShort": "ImageRepository",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Template"
+            },
+            {
+              "ordered": false,
+              "allowDuplicates": false,
+              "semanticId": {
+                "keys": []
+              },
+              "idShort": "ImageTag",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "SubmodelElementCollection"
+              },
+              "value": [],
+              "kind": "Template"
+            },
+            {
+              "value": "",
+              "semanticId": {
+                "keys": []
+              },
+              "hasDataSpecification": [],
+              "idShort": "RestartProperty",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Template"
+            },
+            {
+              "ordered": false,
+              "allowDuplicates": false,
+              "semanticId": {
+                "keys": []
+              },
+              "idShort": "EnvironmentVariables",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "SubmodelElementCollection"
+              },
+              "value": [],
+              "kind": "Template"
+            },
+            {
+              "ordered": false,
+              "allowDuplicates": false,
+              "semanticId": {
+                "keys": []
+              },
+              "idShort": "Labels",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "SubmodelElementCollection"
+              },
+              "value": [],
+              "kind": "Template"
+            },
+            {
+              "ordered": false,
+              "allowDuplicates": false,
+              "semanticId": {
+                "keys": []
+              },
+              "idShort": "PortMappings",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "SubmodelElementCollection"
+              },
+              "value": [],
+              "kind": "Template"
+            },
+            {
+              "ordered": false,
+              "allowDuplicates": false,
+              "semanticId": {
+                "keys": []
+              },
+              "idShort": "Volumes",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "SubmodelElementCollection"
+              },
+              "value": [],
+              "kind": "Template"
+            }
+          ],
+          "kind": "Template"
+        },
+        {
+          "ordered": false,
+          "allowDuplicates": false,
+          "semanticId": {
+            "keys": []
+          },
+          "idShort": "DockerComposeDeploymentDefinition",
+          "category": "CONSTANT",
+          "modelType": {
+            "name": "SubmodelElementCollection"
+          },
+          "value": [
+            {
+              "value": "",
+              "semanticId": {
+                "keys": []
+              },
+              "idShort": "ComposeFile",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Template"
+            },
+            {
+              "value": "",
+              "semanticId": {
+                "keys": []
+              },
+              "idShort": "DotEnvFile",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Template"
+            },
+            {
+              "ordered": false,
+              "allowDuplicates": false,
+              "semanticId": {
+                "keys": []
+              },
+              "idShort": "EnvFiles",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "SubmodelElementCollection"
+              },
+              "value": [],
+              "kind": "Template"
+            }
+          ],
+          "kind": "Template"
+        },
+        {
+          "ordered": false,
+          "allowDuplicates": false,
+          "semanticId": {
+            "keys": []
+          },
+          "idShort": "KubernetesDeploymentDefinition",
+          "category": "CONSTANT",
+          "modelType": {
+            "name": "SubmodelElementCollection"
+          },
+          "value": [
+            {
+              "value": "",
+              "semanticId": {
+                "keys": []
+              },
+              "idShort": "ManifestFile",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "string"
+                }
+              },
+              "kind": "Template"
+            }
+          ],
+          "kind": "Template"
+        }
+      ]
     }
   ],
   "conceptDescriptions": [
