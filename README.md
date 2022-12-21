@@ -10,8 +10,8 @@ Service submodels:
 
 Resource submodels:
 
-- IDTA [Digital Nameplate for industrial equipment (Version 2.0)](https://github.com/admin-shell-io/submodel-templates/tree/main/published/Digital%20nameplate/2/0)
-- IDTA [Generic Frame for Technical Data for Industrial Equipment in Manufacturing (Version 1.2)](https://github.com/admin-shell-io/submodel-templates/tree/main/published/Technical_Data/1/2)
+- IDTA [ZVEI Digital Nameplate for industrial equipment (Version 1.0)](https://github.com/admin-shell-io/submodel-templates/tree/main/published/ZVEI_Digital_Nameplate/1/0)
+- IDTA [Generic Frame for Technical Data for Industrial Equipment in Manufacturing (Version 1.1)](https://github.com/admin-shell-io/submodel-templates/tree/main/published/Technical_Data/1/1)
 - IDTA Platform Resource (proposal submitted)
 
 ## Service Requirements Submodel
