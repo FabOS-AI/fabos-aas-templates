@@ -11,7 +11,7 @@
             {
               "type": "Submodel",
               "local": true,
-              "value": "https://admin-shell.io/zvei/nameplate/1/0/Nameplate",
+              "value": "https://example.com/ids/sm/9191_9112_2122_4204",
               "index": 0,
               "idType": "IRI"
             }
@@ -22,7 +22,7 @@
             {
               "type": "Submodel",
               "local": true,
-              "value": "www.company.com/ids/sm/8552_9161_4002_5836",
+              "value": "https://example.com/ids/sm/4391_9112_2122_2061",
               "index": 0,
               "idType": "IRI"
             }
@@ -56,1500 +56,6 @@
   "submodels": [
     {
       "semanticId": {
-        "keys": [
-          {
-            "type": "Submodel",
-            "local": true,
-            "value": "https://admin-shell.io/zvei/nameplate/1/0/Nameplate",
-            "index": 0,
-            "idType": "IRI"
-          }
-        ]
-      },
-      "qualifiers": [],
-      "hasDataSpecification": [],
-      "identification": {
-        "idType": "IRI",
-        "id": "https://example.com/ids/sm/7344_9012_2122_4234"
-      },
-      "idShort": "Nameplate",
-      "category": "CONSTANT",
-      "modelType": {
-        "name": "Submodel"
-      },
-      "kind": "Template",
-      "submodelElements": [
-        {
-          "value": {
-            "langString": []
-          },
-          "semanticId": {
-            "keys": [
-              {
-                "type": "ConceptDescription",
-                "local": true,
-                "value": "0173-1#02-AAO677#002",
-                "index": 0,
-                "idType": "IRDI"
-              }
-            ]
-          },
-          "constraints": [],
-          "hasDataSpecification": [],
-          "idShort": "ManufacturerName",
-          "category": "PARAMETER",
-          "modelType": {
-            "name": "MultiLanguageProperty"
-          },
-          "kind": "Template"
-        },
-        {
-          "value": {
-            "langString": []
-          },
-          "semanticId": {
-            "keys": [
-              {
-                "type": "ConceptDescription",
-                "local": true,
-                "value": "0173-1#02-AAW338#001",
-                "index": 0,
-                "idType": "IRDI"
-              }
-            ]
-          },
-          "constraints": [],
-          "hasDataSpecification": [],
-          "idShort": "ManufacturerProductDesignation",
-          "category": "PARAMETER",
-          "modelType": {
-            "name": "MultiLanguageProperty"
-          },
-          "kind": "Template"
-        },
-        {
-          "ordered": false,
-          "allowDuplicates": false,
-          "semanticId": {
-            "keys": [
-              {
-                "type": "ConceptDescription",
-                "local": true,
-                "value": "0173-1#02-AAQ832#005",
-                "index": 0,
-                "idType": "IRDI"
-              }
-            ]
-          },
-          "constraints": [],
-          "hasDataSpecification": [],
-          "idShort": "Address",
-          "category": "VARIABLE",
-          "modelType": {
-            "name": "SubmodelElementCollection"
-          },
-          "value": [
-            {
-              "value": {
-                "langString": []
-              },
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "0173-1#02-AAO127#003",
-                    "index": 0,
-                    "idType": "IRDI"
-                  }
-                ]
-              },
-              "constraints": [],
-              "hasDataSpecification": [],
-              "idShort": "Department",
-              "category": "VARIABLE",
-              "modelType": {
-                "name": "MultiLanguageProperty"
-              },
-              "kind": "Template"
-            },
-            {
-              "value": {
-                "langString": []
-              },
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "0173-1#02-AAO128#002",
-                    "index": 0,
-                    "idType": "IRDI"
-                  }
-                ]
-              },
-              "constraints": [],
-              "hasDataSpecification": [],
-              "idShort": "Street",
-              "category": "PARAMETER",
-              "modelType": {
-                "name": "MultiLanguageProperty"
-              },
-              "kind": "Template"
-            },
-            {
-              "value": {
-                "langString": []
-              },
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "0173-1#02-AAO129#002",
-                    "index": 0,
-                    "idType": "IRDI"
-                  }
-                ]
-              },
-              "constraints": [],
-              "hasDataSpecification": [],
-              "idShort": "Zipcode",
-              "category": "VARIABLE",
-              "modelType": {
-                "name": "MultiLanguageProperty"
-              },
-              "kind": "Template"
-            },
-            {
-              "value": {
-                "langString": []
-              },
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "0173-1#02-AAO130#002",
-                    "index": 0,
-                    "idType": "IRDI"
-                  }
-                ]
-              },
-              "constraints": [],
-              "hasDataSpecification": [],
-              "idShort": "POBox",
-              "category": "VARIABLE",
-              "modelType": {
-                "name": "MultiLanguageProperty"
-              },
-              "kind": "Template"
-            },
-            {
-              "value": {
-                "langString": []
-              },
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "0173-1#02-AAO131#002",
-                    "index": 0,
-                    "idType": "IRDI"
-                  }
-                ]
-              },
-              "constraints": [],
-              "hasDataSpecification": [],
-              "idShort": "ZipCodeOfPOBox",
-              "category": "VARIABLE",
-              "modelType": {
-                "name": "MultiLanguageProperty"
-              },
-              "kind": "Template"
-            },
-            {
-              "value": {
-                "langString": []
-              },
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "0173-1#02-AAO132#002",
-                    "index": 0,
-                    "idType": "IRDI"
-                  }
-                ]
-              },
-              "constraints": [],
-              "hasDataSpecification": [],
-              "idShort": "CityTown",
-              "category": "VARIABLE",
-              "modelType": {
-                "name": "MultiLanguageProperty"
-              },
-              "kind": "Template"
-            },
-            {
-              "value": {
-                "langString": []
-              },
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "0173-1#02-AAO133#002",
-                    "index": 0,
-                    "idType": "IRDI"
-                  }
-                ]
-              },
-              "constraints": [],
-              "hasDataSpecification": [],
-              "idShort": "StateCounty",
-              "category": "VARIABLE",
-              "modelType": {
-                "name": "MultiLanguageProperty"
-              },
-              "kind": "Template"
-            },
-            {
-              "value": {
-                "langString": []
-              },
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "0173-1#02-AAO134#002",
-                    "index": 0,
-                    "idType": "IRDI"
-                  }
-                ]
-              },
-              "constraints": [],
-              "hasDataSpecification": [],
-              "idShort": "NationalCode",
-              "category": "VARIABLE",
-              "modelType": {
-                "name": "MultiLanguageProperty"
-              },
-              "kind": "Template"
-            },
-            {
-              "value": {
-                "langString": []
-              },
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "0173-1#02-AAO135#002",
-                    "index": 0,
-                    "idType": "IRDI"
-                  }
-                ]
-              },
-              "constraints": [],
-              "hasDataSpecification": [],
-              "idShort": "VATNumber",
-              "category": "VARIABLE",
-              "modelType": {
-                "name": "MultiLanguageProperty"
-              },
-              "kind": "Template"
-            },
-            {
-              "value": {
-                "langString": []
-              },
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "0173-1#02-AAO202#003",
-                    "index": 0,
-                    "idType": "IRDI"
-                  }
-                ]
-              },
-              "constraints": [],
-              "hasDataSpecification": [],
-              "idShort": "AddressRemarks",
-              "category": "VARIABLE",
-              "modelType": {
-                "name": "MultiLanguageProperty"
-              },
-              "kind": "Template"
-            },
-            {
-              "value": "",
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "0173-1#02-AAQ326#002",
-                    "index": 0,
-                    "idType": "IRDI"
-                  }
-                ]
-              },
-              "constraints": [],
-              "hasDataSpecification": [],
-              "idShort": "AddressOfAdditionalLink",
-              "category": "VARIABLE",
-              "modelType": {
-                "name": "Property"
-              },
-              "valueType": {
-                "dataObjectType": {
-                  "name": ""
-                }
-              },
-              "kind": "Template"
-            },
-            {
-              "ordered": false,
-              "allowDuplicates": false,
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "0173-1#02-AAQ833#005",
-                    "index": 0,
-                    "idType": "IRDI"
-                  }
-                ]
-              },
-              "constraints": [],
-              "hasDataSpecification": [],
-              "idShort": "Phone01",
-              "category": "VARIABLE",
-              "modelType": {
-                "name": "SubmodelElementCollection"
-              },
-              "value": [
-                {
-                  "value": {
-                    "langString": []
-                  },
-                  "semanticId": {
-                    "keys": [
-                      {
-                        "type": "ConceptDescription",
-                        "local": true,
-                        "value": "0173-1#02-AAO136#002",
-                        "index": 0,
-                        "idType": "IRDI"
-                      }
-                    ]
-                  },
-                  "constraints": [],
-                  "hasDataSpecification": [],
-                  "idShort": "TelephoneNumber",
-                  "category": "VARIABLE",
-                  "modelType": {
-                    "name": "MultiLanguageProperty"
-                  },
-                  "kind": "Template"
-                },
-                {
-                  "value": "",
-                  "semanticId": {
-                    "keys": [
-                      {
-                        "type": "ConceptDescription",
-                        "local": true,
-                        "value": "0173-1#02-AAO137#003",
-                        "index": 0,
-                        "idType": "IRDI"
-                      }
-                    ]
-                  },
-                  "constraints": [],
-                  "hasDataSpecification": [],
-                  "idShort": "TypeOfTelephone",
-                  "category": "VARIABLE",
-                  "modelType": {
-                    "name": "Property"
-                  },
-                  "valueType": {
-                    "dataObjectType": {
-                      "name": ""
-                    }
-                  },
-                  "kind": "Template"
-                }
-              ],
-              "kind": "Template"
-            },
-            {
-              "ordered": false,
-              "allowDuplicates": false,
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "0173-1#02-AAQ834#005",
-                    "index": 0,
-                    "idType": "IRDI"
-                  }
-                ]
-              },
-              "constraints": [],
-              "hasDataSpecification": [],
-              "idShort": "Fax01",
-              "category": "VARIABLE",
-              "modelType": {
-                "name": "SubmodelElementCollection"
-              },
-              "value": [
-                {
-                  "value": {
-                    "langString": []
-                  },
-                  "semanticId": {
-                    "keys": [
-                      {
-                        "type": "ConceptDescription",
-                        "local": true,
-                        "value": "0173-1#02-AAO195#002",
-                        "index": 0,
-                        "idType": "IRDI"
-                      }
-                    ]
-                  },
-                  "constraints": [],
-                  "hasDataSpecification": [],
-                  "idShort": "FaxNumber",
-                  "category": "VARIABLE",
-                  "modelType": {
-                    "name": "MultiLanguageProperty"
-                  },
-                  "kind": "Template"
-                },
-                {
-                  "value": "",
-                  "semanticId": {
-                    "keys": [
-                      {
-                        "type": "ConceptDescription",
-                        "local": true,
-                        "value": "0173-1#02-AAO196#003",
-                        "index": 0,
-                        "idType": "IRDI"
-                      }
-                    ]
-                  },
-                  "constraints": [],
-                  "hasDataSpecification": [],
-                  "idShort": "TypeOfFaxNumber",
-                  "category": "VARIABLE",
-                  "modelType": {
-                    "name": "Property"
-                  },
-                  "valueType": {
-                    "dataObjectType": {
-                      "name": ""
-                    }
-                  },
-                  "kind": "Template"
-                }
-              ],
-              "kind": "Template"
-            },
-            {
-              "ordered": false,
-              "allowDuplicates": false,
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "0173-1#02-AAQ836#005",
-                    "index": 0,
-                    "idType": "IRDI"
-                  }
-                ]
-              },
-              "constraints": [],
-              "hasDataSpecification": [],
-              "idShort": "Email01",
-              "category": "VARIABLE",
-              "modelType": {
-                "name": "SubmodelElementCollection"
-              },
-              "value": [
-                {
-                  "value": "",
-                  "semanticId": {
-                    "keys": [
-                      {
-                        "type": "ConceptDescription",
-                        "local": true,
-                        "value": "0173-1#02-AAO198#002",
-                        "index": 0,
-                        "idType": "IRDI"
-                      }
-                    ]
-                  },
-                  "constraints": [],
-                  "hasDataSpecification": [],
-                  "idShort": "EmailAddress",
-                  "category": "VARIABLE",
-                  "modelType": {
-                    "name": "Property"
-                  },
-                  "valueType": {
-                    "dataObjectType": {
-                      "name": ""
-                    }
-                  },
-                  "kind": "Template"
-                },
-                {
-                  "value": {
-                    "langString": []
-                  },
-                  "semanticId": {
-                    "keys": [
-                      {
-                        "type": "ConceptDescription",
-                        "local": true,
-                        "value": "0173-1#02-AAO200#002",
-                        "index": 0,
-                        "idType": "IRDI"
-                      }
-                    ]
-                  },
-                  "constraints": [],
-                  "hasDataSpecification": [],
-                  "idShort": "PublicKey",
-                  "category": "VARIABLE",
-                  "modelType": {
-                    "name": "MultiLanguageProperty"
-                  },
-                  "kind": "Template"
-                },
-                {
-                  "value": "",
-                  "semanticId": {
-                    "keys": [
-                      {
-                        "type": "ConceptDescription",
-                        "local": true,
-                        "value": "0173-1#02-AAO199#003",
-                        "index": 0,
-                        "idType": "IRDI"
-                      }
-                    ]
-                  },
-                  "constraints": [],
-                  "hasDataSpecification": [],
-                  "idShort": "TypeOfEmailAddress",
-                  "category": "VARIABLE",
-                  "modelType": {
-                    "name": "Property"
-                  },
-                  "valueType": {
-                    "dataObjectType": {
-                      "name": ""
-                    }
-                  },
-                  "kind": "Template"
-                },
-                {
-                  "value": {
-                    "langString": []
-                  },
-                  "semanticId": {
-                    "keys": [
-                      {
-                        "type": "ConceptDescription",
-                        "local": true,
-                        "value": "0173-1#02-AAO201#002",
-                        "index": 0,
-                        "idType": "IRDI"
-                      }
-                    ]
-                  },
-                  "constraints": [],
-                  "hasDataSpecification": [],
-                  "idShort": "TypeOfPublickKey",
-                  "category": "VARIABLE",
-                  "modelType": {
-                    "name": "MultiLanguageProperty"
-                  },
-                  "kind": "Template"
-                }
-              ],
-              "kind": "Template"
-            }
-          ],
-          "kind": "Template"
-        },
-        {
-          "value": {
-            "langString": []
-          },
-          "semanticId": {
-            "keys": [
-              {
-                "type": "ConceptDescription",
-                "local": true,
-                "value": "0173-1#02-AAU731#001",
-                "index": 0,
-                "idType": "IRDI"
-              }
-            ]
-          },
-          "constraints": [],
-          "hasDataSpecification": [],
-          "idShort": "ManufacturerProductFamily",
-          "category": "PARAMETER",
-          "modelType": {
-            "name": "MultiLanguageProperty"
-          },
-          "kind": "Template"
-        },
-        {
-          "value": "",
-          "semanticId": {
-            "keys": [
-              {
-                "type": "ConceptDescription",
-                "local": true,
-                "value": "0173-1#02-AAM556#002",
-                "index": 0,
-                "idType": "IRDI"
-              }
-            ]
-          },
-          "constraints": [],
-          "hasDataSpecification": [],
-          "idShort": "SerialNumber",
-          "category": "PARAMETER",
-          "modelType": {
-            "name": "Property"
-          },
-          "valueType": {
-            "dataObjectType": {
-              "name": ""
-            }
-          },
-          "kind": "Template"
-        },
-        {
-          "value": "",
-          "semanticId": {
-            "keys": [
-              {
-                "type": "ConceptDescription",
-                "local": true,
-                "value": "0173-1#02-AAP906#001",
-                "index": 0,
-                "idType": "IRDI"
-              }
-            ]
-          },
-          "constraints": [],
-          "hasDataSpecification": [],
-          "idShort": "YearOfConstruction",
-          "category": "PARAMETER",
-          "modelType": {
-            "name": "Property"
-          },
-          "valueType": {
-            "dataObjectType": {
-              "name": ""
-            }
-          },
-          "kind": "Template"
-        },
-        {
-          "ordered": false,
-          "allowDuplicates": false,
-          "semanticId": {
-            "keys": [
-              {
-                "type": "ConceptDescription",
-                "local": true,
-                "value": "https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings",
-                "index": 0,
-                "idType": "IRI"
-              }
-            ]
-          },
-          "constraints": [],
-          "hasDataSpecification": [],
-          "idShort": "Markings",
-          "category": "VARIABLE",
-          "modelType": {
-            "name": "SubmodelElementCollection"
-          },
-          "value": [
-            {
-              "ordered": false,
-              "allowDuplicates": false,
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings/Marking",
-                    "index": 0,
-                    "idType": "IRI"
-                  }
-                ]
-              },
-              "constraints": [],
-              "hasDataSpecification": [],
-              "idShort": "Marking01",
-              "category": "VARIABLE",
-              "modelType": {
-                "name": "SubmodelElementCollection"
-              },
-              "value": [
-                {
-                  "value": "",
-                  "semanticId": {
-                    "keys": [
-                      {
-                        "type": "ConceptDescription",
-                        "local": true,
-                        "value": "https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings/Marking/MarkingName",
-                        "index": 0,
-                        "idType": "IRI"
-                      }
-                    ]
-                  },
-                  "constraints": [],
-                  "hasDataSpecification": [],
-                  "idShort": "MarkingName",
-                  "category": "VARIABLE",
-                  "modelType": {
-                    "name": "Property"
-                  },
-                  "valueType": {
-                    "dataObjectType": {
-                      "name": ""
-                    }
-                  },
-                  "kind": "Template"
-                },
-                {
-                  "mimeType": "",
-                  "value": "",
-                  "semanticId": {
-                    "keys": [
-                      {
-                        "type": "ConceptDescription",
-                        "local": true,
-                        "value": "https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings/Marking/MarkingFile",
-                        "index": 0,
-                        "idType": "IRI"
-                      }
-                    ]
-                  },
-                  "constraints": [],
-                  "hasDataSpecification": [],
-                  "idShort": "MarkingFile",
-                  "category": "VARIABLE",
-                  "modelType": {
-                    "name": "File"
-                  },
-                  "kind": "Template"
-                },
-                {
-                  "value": "",
-                  "semanticId": {
-                    "keys": [
-                      {
-                        "type": "ConceptDescription",
-                        "local": true,
-                        "value": "https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings/Marking/MarkingAdditionalText",
-                        "index": 0,
-                        "idType": "IRI"
-                      }
-                    ]
-                  },
-                  "constraints": [],
-                  "hasDataSpecification": [],
-                  "idShort": "MarkingAdditionalText01",
-                  "category": "VARIABLE",
-                  "modelType": {
-                    "name": "Property"
-                  },
-                  "valueType": {
-                    "dataObjectType": {
-                      "name": ""
-                    }
-                  },
-                  "kind": "Template"
-                }
-              ],
-              "kind": "Template"
-            }
-          ],
-          "kind": "Template"
-        },
-        {
-          "ordered": false,
-          "allowDuplicates": false,
-          "semanticId": {
-            "keys": [
-              {
-                "type": "ConceptDescription",
-                "local": true,
-                "value": "https://admin-shell.io/zvei/nameplate/1/0/Nameplate/AssetSpecificProperties",
-                "index": 0,
-                "idType": "IRI"
-              }
-            ]
-          },
-          "constraints": [],
-          "hasDataSpecification": [],
-          "idShort": "AssetSpecificProperties",
-          "category": "VARIABLE",
-          "modelType": {
-            "name": "SubmodelElementCollection"
-          },
-          "value": [
-            {
-              "ordered": false,
-              "allowDuplicates": false,
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "https://admin-shell.io/zvei/nameplate/1/0/Nameplate/AssetSpecificProperties/GuidelineSpecificProperties",
-                    "index": 0,
-                    "idType": "IRI"
-                  }
-                ]
-              },
-              "constraints": [],
-              "hasDataSpecification": [],
-              "idShort": "GuidelineSpecificProperties01",
-              "category": "VARIABLE",
-              "modelType": {
-                "name": "SubmodelElementCollection"
-              },
-              "value": [
-                {
-                  "value": "",
-                  "semanticId": {
-                    "keys": [
-                      {
-                        "type": "ConceptDescription",
-                        "local": true,
-                        "value": "0173-1#02-AAO856#002",
-                        "index": 0,
-                        "idType": "IRDI"
-                      }
-                    ]
-                  },
-                  "constraints": [],
-                  "hasDataSpecification": [],
-                  "idShort": "GuidelineForConformityDeclaration",
-                  "category": "VARIABLE",
-                  "modelType": {
-                    "name": "Property"
-                  },
-                  "valueType": {
-                    "dataObjectType": {
-                      "name": ""
-                    }
-                  },
-                  "kind": "Template"
-                }
-              ],
-              "kind": "Template"
-            }
-          ],
-          "kind": "Template"
-        }
-      ]
-    },
-    {
-      "semanticId": {
-        "keys": [
-          {
-            "type": "Submodel",
-            "local": false,
-            "value": "http://admin-shell.io/sandbox/SG2/TechnicalData/Submodel/1/1",
-            "index": 0,
-            "idType": "IRI"
-          }
-        ]
-      },
-      "qualifiers": [],
-      "hasDataSpecification": [],
-      "identification": {
-        "idType": "IRI",
-        "id": "https://example.com/ids/sm/7544_9012_2122_1558"
-      },
-      "idShort": "TechnicalData",
-      "category": "CONSTANT",
-      "modelType": {
-        "name": "Submodel"
-      },
-      "kind": "Template",
-      "submodelElements": [
-        {
-          "ordered": false,
-          "allowDuplicates": false,
-          "semanticId": {
-            "keys": [
-              {
-                "type": "ConceptDescription",
-                "local": true,
-                "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/GeneralInformation/1/1",
-                "index": 0,
-                "idType": "IRI"
-              }
-            ]
-          },
-          "constraints": [],
-          "hasDataSpecification": [],
-          "idShort": "GeneralInformation",
-          "category": "CONSTANT",
-          "modelType": {
-            "name": "SubmodelElementCollection"
-          },
-          "value": [
-            {
-              "value": "",
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/ManufacturerName/1/1",
-                    "index": 0,
-                    "idType": "IRI"
-                  }
-                ]
-              },
-              "constraints": [],
-              "hasDataSpecification": [],
-              "idShort": "ManufacturerName",
-              "category": "CONSTANT",
-              "modelType": {
-                "name": "Property"
-              },
-              "valueType": {
-                "dataObjectType": {
-                  "name": ""
-                }
-              },
-              "kind": "Template"
-            },
-            {
-              "mimeType": "",
-              "value": "",
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/ManufacturerLogo/1/1",
-                    "index": 0,
-                    "idType": "IRI"
-                  }
-                ]
-              },
-              "constraints": [],
-              "hasDataSpecification": [],
-              "idShort": "ManufacturerLogo",
-              "category": "CONSTANT",
-              "modelType": {
-                "name": "File"
-              },
-              "kind": "Template"
-            },
-            {
-              "value": {
-                "langString": []
-              },
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/ManufacturerProductDesignation/1/1",
-                    "index": 0,
-                    "idType": "IRI"
-                  }
-                ]
-              },
-              "constraints": [],
-              "hasDataSpecification": [],
-              "idShort": "ManufacturerProductDesignation",
-              "category": "CONSTANT",
-              "modelType": {
-                "name": "MultiLanguageProperty"
-              },
-              "kind": "Template"
-            },
-            {
-              "value": "",
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/ManufacturerPartNumber/1/1",
-                    "index": 0,
-                    "idType": "IRI"
-                  }
-                ]
-              },
-              "constraints": [],
-              "hasDataSpecification": [],
-              "idShort": "ManufacturerPartNumber",
-              "category": "CONSTANT",
-              "modelType": {
-                "name": "Property"
-              },
-              "valueType": {
-                "dataObjectType": {
-                  "name": ""
-                }
-              },
-              "kind": "Template"
-            },
-            {
-              "value": "",
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/ManufacturerOrderCode/1/1",
-                    "index": 0,
-                    "idType": "IRI"
-                  }
-                ]
-              },
-              "constraints": [],
-              "hasDataSpecification": [],
-              "idShort": "ManufacturerOrderCode",
-              "category": "CONSTANT",
-              "modelType": {
-                "name": "Property"
-              },
-              "valueType": {
-                "dataObjectType": {
-                  "name": ""
-                }
-              },
-              "kind": "Template"
-            },
-            {
-              "mimeType": "",
-              "value": "",
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/ProductImage/1/1",
-                    "index": 0,
-                    "idType": "IRI"
-                  }
-                ]
-              },
-              "constraints": [],
-              "hasDataSpecification": [],
-              "idShort": "ProductImage01",
-              "category": "CONSTANT",
-              "modelType": {
-                "name": "File"
-              },
-              "kind": "Template"
-            }
-          ],
-          "kind": "Template"
-        },
-        {
-          "ordered": false,
-          "allowDuplicates": false,
-          "semanticId": {
-            "keys": [
-              {
-                "type": "ConceptDescription",
-                "local": true,
-                "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/ProductClassifications/1/1",
-                "index": 0,
-                "idType": "IRI"
-              }
-            ]
-          },
-          "constraints": [],
-          "hasDataSpecification": [],
-          "idShort": "ProductClassifications",
-          "category": "CONSTANT",
-          "modelType": {
-            "name": "SubmodelElementCollection"
-          },
-          "value": [
-            {
-              "ordered": false,
-              "allowDuplicates": false,
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/ProductClassificationItem/1/1",
-                    "index": 0,
-                    "idType": "IRI"
-                  }
-                ]
-              },
-              "constraints": [],
-              "hasDataSpecification": [],
-              "idShort": "ProductClassificationItem101",
-              "category": "CONSTANT",
-              "modelType": {
-                "name": "SubmodelElementCollection"
-              },
-              "value": [
-                {
-                  "value": "",
-                  "semanticId": {
-                    "keys": [
-                      {
-                        "type": "ConceptDescription",
-                        "local": true,
-                        "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/ProductClassificationSystem/1/1",
-                        "index": 0,
-                        "idType": "IRI"
-                      }
-                    ]
-                  },
-                  "constraints": [],
-                  "hasDataSpecification": [],
-                  "idShort": "ProductClassificationSystem",
-                  "category": "CONSTANT",
-                  "modelType": {
-                    "name": "Property"
-                  },
-                  "valueType": {
-                    "dataObjectType": {
-                      "name": ""
-                    }
-                  },
-                  "kind": "Template"
-                },
-                {
-                  "value": "",
-                  "semanticId": {
-                    "keys": [
-                      {
-                        "type": "ConceptDescription",
-                        "local": true,
-                        "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/ClassificationSystemVersion/1/1",
-                        "index": 0,
-                        "idType": "IRI"
-                      }
-                    ]
-                  },
-                  "constraints": [],
-                  "hasDataSpecification": [],
-                  "idShort": "ClassificationSystemVersion",
-                  "category": "CONSTANT",
-                  "modelType": {
-                    "name": "Property"
-                  },
-                  "valueType": {
-                    "dataObjectType": {
-                      "name": ""
-                    }
-                  },
-                  "kind": "Template"
-                },
-                {
-                  "value": "",
-                  "semanticId": {
-                    "keys": [
-                      {
-                        "type": "ConceptDescription",
-                        "local": true,
-                        "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/ProductClassId/1/1",
-                        "index": 0,
-                        "idType": "IRI"
-                      }
-                    ]
-                  },
-                  "constraints": [],
-                  "hasDataSpecification": [],
-                  "idShort": "ProductClassId",
-                  "category": "CONSTANT",
-                  "modelType": {
-                    "name": "Property"
-                  },
-                  "valueType": {
-                    "dataObjectType": {
-                      "name": ""
-                    }
-                  },
-                  "kind": "Template"
-                }
-              ],
-              "kind": "Template"
-            }
-          ],
-          "kind": "Template"
-        },
-        {
-          "ordered": false,
-          "allowDuplicates": false,
-          "semanticId": {
-            "keys": [
-              {
-                "type": "ConceptDescription",
-                "local": true,
-                "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/TechnicalProperties/1/1",
-                "index": 0,
-                "idType": "IRI"
-              }
-            ]
-          },
-          "constraints": [],
-          "hasDataSpecification": [],
-          "idShort": "TechnicalProperties",
-          "category": "CONSTANT",
-          "modelType": {
-            "name": "SubmodelElementCollection"
-          },
-          "value": [
-            {
-              "value": "",
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "https://admin-shell.io/SemanticIdNotAvailable /1/1 ",
-                    "index": 0,
-                    "idType": "IRI"
-                  }
-                ]
-              },
-              "constraints": [],
-              "hasDataSpecification": [],
-              "idShort": "SemanticIdNotAvailable01",
-              "category": "CONSTANT",
-              "modelType": {
-                "name": "Property"
-              },
-              "valueType": {
-                "dataObjectType": {
-                  "name": ""
-                }
-              },
-              "kind": "Template"
-            },
-            {
-              "ordered": false,
-              "allowDuplicates": false,
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/MainSection/1/1",
-                    "index": 0,
-                    "idType": "IRI"
-                  }
-                ]
-              },
-              "constraints": [],
-              "hasDataSpecification": [],
-              "idShort": "MainSection01",
-              "category": "CONSTANT",
-              "modelType": {
-                "name": "SubmodelElementCollection"
-              },
-              "value": [
-                {
-                  "value": "",
-                  "semanticId": {
-                    "keys": [
-                      {
-                        "type": "ConceptDescription",
-                        "local": true,
-                        "value": "https://admin-shell.io/SemanticIdNotAvailable /1/1 ",
-                        "index": 0,
-                        "idType": "IRI"
-                      }
-                    ]
-                  },
-                  "constraints": [],
-                  "hasDataSpecification": [],
-                  "idShort": "SemanticIdNotAvailable01",
-                  "category": "CONSTANT",
-                  "modelType": {
-                    "name": "Property"
-                  },
-                  "valueType": {
-                    "dataObjectType": {
-                      "name": ""
-                    }
-                  },
-                  "kind": "Template"
-                },
-                {
-                  "ordered": false,
-                  "allowDuplicates": false,
-                  "semanticId": {
-                    "keys": [
-                      {
-                        "type": "ConceptDescription",
-                        "local": true,
-                        "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/SubSection/1/1",
-                        "index": 0,
-                        "idType": "IRI"
-                      }
-                    ]
-                  },
-                  "constraints": [],
-                  "hasDataSpecification": [],
-                  "idShort": "SubSection01",
-                  "category": "CONSTANT",
-                  "modelType": {
-                    "name": "SubmodelElementCollection"
-                  },
-                  "value": [
-                    {
-                      "value": "",
-                      "semanticId": {
-                        "keys": [
-                          {
-                            "type": "ConceptDescription",
-                            "local": true,
-                            "value": "https://admin-shell.io/SemanticIdNotAvailable /1/1 ",
-                            "index": 0,
-                            "idType": "IRI"
-                          }
-                        ]
-                      },
-                      "constraints": [],
-                      "hasDataSpecification": [],
-                      "idShort": "SemanticIdNotAvailable01",
-                      "category": "CONSTANT",
-                      "modelType": {
-                        "name": "Property"
-                      },
-                      "valueType": {
-                        "dataObjectType": {
-                          "name": ""
-                        }
-                      },
-                      "kind": "Template"
-                    }
-                  ],
-                  "kind": "Template"
-                }
-              ],
-              "kind": "Template"
-            }
-          ],
-          "kind": "Template"
-        },
-        {
-          "ordered": false,
-          "allowDuplicates": false,
-          "semanticId": {
-            "keys": [
-              {
-                "type": "ConceptDescription",
-                "local": true,
-                "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/FurtherInformation/1/1",
-                "index": 0,
-                "idType": "IRI"
-              }
-            ]
-          },
-          "constraints": [],
-          "hasDataSpecification": [],
-          "idShort": "FurtherInformation",
-          "category": "CONSTANT",
-          "modelType": {
-            "name": "SubmodelElementCollection"
-          },
-          "value": [
-            {
-              "value": {
-                "langString": []
-              },
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/TextStatement/1/1",
-                    "index": 0,
-                    "idType": "IRI"
-                  }
-                ]
-              },
-              "constraints": [],
-              "hasDataSpecification": [],
-              "idShort": "TextStatement01",
-              "category": "CONSTANT",
-              "modelType": {
-                "name": "MultiLanguageProperty"
-              },
-              "kind": "Template"
-            },
-            {
-              "value": "",
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/ValidDate/1/1",
-                    "index": 0,
-                    "idType": "IRI"
-                  }
-                ]
-              },
-              "constraints": [],
-              "hasDataSpecification": [],
-              "idShort": "ValidDate",
-              "category": "CONSTANT",
-              "modelType": {
-                "name": "Property"
-              },
-              "valueType": {
-                "dataObjectType": {
-                  "name": ""
-                }
-              },
-              "kind": "Template"
-            }
-          ],
-          "kind": "Template"
-        }
-      ]
-    },
-    {
-      "semanticId": {
         "keys": []
       },
       "qualifiers": [],
@@ -1566,7 +72,7 @@
       "kind": "Instance",
       "submodelElements": [
         {
-          "value": "",
+          "value": "Raspberry Pi OS",
           "semanticId": {
             "keys": [
               {
@@ -1587,13 +93,13 @@
           },
           "valueType": {
             "dataObjectType": {
-              "name": ""
+              "name": "string"
             }
           },
           "kind": "Instance"
         },
         {
-          "value": "",
+          "value": "ARM",
           "semanticId": {
             "keys": [
               {
@@ -1614,13 +120,13 @@
           },
           "valueType": {
             "dataObjectType": {
-              "name": ""
+              "name": "string"
             }
           },
           "kind": "Instance"
         },
         {
-          "value": "",
+          "value": "1048576",
           "semanticId": {
             "keys": [
               {
@@ -1641,7 +147,7 @@
           },
           "valueType": {
             "dataObjectType": {
-              "name": ""
+              "name": "integer"
             }
           },
           "kind": "Instance"
@@ -1855,7 +361,7 @@
       "hasDataSpecification": [],
       "identification": {
         "idType": "IRI",
-        "id": "www.company.com/ids/sm/8552_9161_4002_5836"
+        "id": "https://example.com/ids/sm/4391_9112_2122_2061"
       },
       "administration": {
         "version": "1",
@@ -1927,7 +433,7 @@
               },
               "valueType": {
                 "dataObjectType": {
-                  "name": ""
+                  "name": "string"
                 }
               },
               "kind": "Instance"
@@ -2031,7 +537,7 @@
               },
               "valueType": {
                 "dataObjectType": {
-                  "name": ""
+                  "name": "string"
                 }
               },
               "kind": "Instance"
@@ -2066,7 +572,7 @@
               },
               "valueType": {
                 "dataObjectType": {
-                  "name": ""
+                  "name": "string"
                 }
               },
               "kind": "Instance"
@@ -2195,7 +701,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": ""
+                      "name": "string"
                     }
                   },
                   "kind": "Instance"
@@ -2230,7 +736,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": ""
+                      "name": "string"
                     }
                   },
                   "kind": "Instance"
@@ -2265,7 +771,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": ""
+                      "name": "string"
                     }
                   },
                   "kind": "Instance"
@@ -2341,6 +847,8 @@
                       }
                     ]
                   },
+                  "constraints": [],
+                  "hasDataSpecification": [],
                   "idShort": "ManNamOfPro",
                   "category": "CONSTANT",
                   "modelType": {
@@ -2348,7 +856,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": ""
+                      "name": "string"
                     }
                   },
                   "kind": "Instance"
@@ -2366,6 +874,8 @@
                       }
                     ]
                   },
+                  "constraints": [],
+                  "hasDataSpecification": [],
                   "idShort": "ProTypDesOfPro",
                   "category": "CONSTANT",
                   "modelType": {
@@ -2373,7 +883,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": ""
+                      "name": "string"
                     }
                   },
                   "kind": "Instance"
@@ -2400,7 +910,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": ""
+                      "name": "int"
                     }
                   },
                   "kind": "Instance",
@@ -2419,6 +929,8 @@
                       }
                     ]
                   },
+                  "constraints": [],
+                  "hasDataSpecification": [],
                   "idShort": "FreOfPro",
                   "category": "CONSTANT",
                   "modelType": {
@@ -2426,7 +938,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": ""
+                      "name": "float"
                     }
                   },
                   "kind": "Instance"
@@ -2444,6 +956,8 @@
                       }
                     ]
                   },
+                  "constraints": [],
+                  "hasDataSpecification": [],
                   "idShort": "ProArc",
                   "category": "CONSTANT",
                   "modelType": {
@@ -2451,7 +965,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": ""
+                      "name": "string"
                     }
                   },
                   "kind": "Instance"
@@ -2483,6 +997,8 @@
                   }
                 ]
               },
+              "constraints": [],
+              "hasDataSpecification": [],
               "idShort": "Memory",
               "category": "CONSTANT",
               "modelType": {
@@ -2502,6 +1018,8 @@
                       }
                     ]
                   },
+                  "constraints": [],
+                  "hasDataSpecification": [],
                   "idShort": "SizOfTheRam",
                   "category": "CONSTANT",
                   "modelType": {
@@ -2509,7 +1027,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": ""
+                      "name": "integer"
                     }
                   },
                   "kind": "Instance"
@@ -2541,6 +1059,7 @@
                   }
                 ]
               },
+              "constraints": [],
               "hasDataSpecification": [
                 {
                   "dataSpecification": {
@@ -2575,6 +1094,8 @@
                       }
                     ]
                   },
+                  "constraints": [],
+                  "hasDataSpecification": [],
                   "idShort": "WlaNetConAva",
                   "category": "CONSTANT",
                   "modelType": {
@@ -2582,7 +1103,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": ""
+                      "name": "boolean"
                     }
                   },
                   "kind": "Instance"
@@ -2600,6 +1121,8 @@
                       }
                     ]
                   },
+                  "constraints": [],
+                  "hasDataSpecification": [],
                   "idShort": "Wla802StaPos",
                   "category": "CONSTANT",
                   "modelType": {
@@ -2607,7 +1130,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": ""
+                      "name": "boolean"
                     }
                   },
                   "kind": "Instance"
@@ -2625,6 +1148,8 @@
                       }
                     ]
                   },
+                  "constraints": [],
+                  "hasDataSpecification": [],
                   "idShort": "BluTraSta",
                   "category": "CONSTANT",
                   "modelType": {
@@ -2632,7 +1157,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": ""
+                      "name": "boolean"
                     }
                   },
                   "kind": "Instance"
@@ -2650,6 +1175,8 @@
                       }
                     ]
                   },
+                  "constraints": [],
+                  "hasDataSpecification": [],
                   "idShort": "GigEthPre",
                   "category": "CONSTANT",
                   "modelType": {
@@ -2657,7 +1184,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": ""
+                      "name": "boolean"
                     }
                   },
                   "kind": "Instance"
@@ -2675,6 +1202,8 @@
                       }
                     ]
                   },
+                  "constraints": [],
+                  "hasDataSpecification": [],
                   "idShort": "NumOfEthCon",
                   "category": "CONSTANT",
                   "modelType": {
@@ -2682,7 +1211,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": ""
+                      "name": "int"
                     }
                   },
                   "kind": "Instance"
@@ -2700,6 +1229,8 @@
                       }
                     ]
                   },
+                  "constraints": [],
+                  "hasDataSpecification": [],
                   "idShort": "NumOfUsbPor2",
                   "category": "CONSTANT",
                   "modelType": {
@@ -2707,7 +1238,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": ""
+                      "name": "int"
                     }
                   },
                   "kind": "Instance"
@@ -2725,6 +1256,8 @@
                       }
                     ]
                   },
+                  "constraints": [],
+                  "hasDataSpecification": [],
                   "idShort": "NumOfUsbPor3",
                   "category": "CONSTANT",
                   "modelType": {
@@ -2732,7 +1265,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": ""
+                      "name": "int"
                     }
                   },
                   "kind": "Instance"
@@ -2747,6 +1280,68 @@
                 {
                   "language": "de",
                   "text": "Anschlussmöglichkeiten"
+                }
+              ]
+            },
+            {
+              "ordered": false,
+              "allowDuplicates": false,
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/MainSection/1/1",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "VideoAndSound",
+              "category": "CONSTANT",
+              "modelType": {
+                "name": "SubmodelElementCollection"
+              },
+              "value": [
+                {
+                  "value": "2",
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "ConceptDescription",
+                        "local": true,
+                        "value": "0173-1#02-AAG546#001",
+                        "index": 0,
+                        "idType": "IRDI"
+                      }
+                    ]
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "NumOfHdmCon",
+                  "category": "CONSTANT",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "integer"
+                    }
+                  },
+                  "kind": "Instance"
+                }
+              ],
+              "kind": "Instance",
+              "descriptions": [
+                {
+                  "language": "en",
+                  "text": "Video & sound"
+                },
+                {
+                  "language": "de",
+                  "text": "Video & Sound"
                 }
               ]
             }
@@ -2790,41 +1385,6 @@
                   {
                     "type": "ConceptDescription",
                     "local": true,
-                    "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/TextStatement/1/1",
-                    "index": 0,
-                    "idType": "IRI"
-                  }
-                ]
-              },
-              "constraints": [
-                {
-                  "type": "Multiplicity",
-                  "valueType": "",
-                  "value": "ZeroToMany",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                }
-              ],
-              "hasDataSpecification": [],
-              "idShort": "TextStatement",
-              "modelType": {
-                "name": "Property"
-              },
-              "valueType": {
-                "dataObjectType": {
-                  "name": ""
-                }
-              },
-              "kind": "Instance"
-            },
-            {
-              "value": "",
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
                     "value": "https://admin-shell.io/sandbox/SG2/TechnicalData/ValidDate/1/1",
                     "index": 0,
                     "idType": "IRI"
@@ -2848,7 +1408,7 @@
               },
               "valueType": {
                 "dataObjectType": {
-                  "name": ""
+                  "name": "date"
                 }
               },
               "kind": "Instance"
@@ -2913,7 +1473,7 @@
       "hasDataSpecification": [],
       "identification": {
         "idType": "IRI",
-        "id": "https://admin-shell.io/zvei/nameplate/1/0/Nameplate"
+        "id": "https://example.com/ids/sm/9191_9112_2122_4204"
       },
       "idShort": "Nameplate",
       "category": "VARIABLE",
@@ -3502,7 +2062,7 @@
               },
               "valueType": {
                 "dataObjectType": {
-                  "name": ""
+                  "name": "string"
                 }
               },
               "kind": "Instance"
@@ -3634,7 +2194,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": ""
+                      "name": "string"
                     }
                   },
                   "kind": "Instance"
@@ -3769,7 +2329,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": ""
+                      "name": "string"
                     }
                   },
                   "kind": "Instance"
@@ -3855,7 +2415,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": ""
+                      "name": "string"
                     }
                   },
                   "kind": "Instance"
@@ -3948,7 +2508,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": ""
+                      "name": "string"
                     }
                   },
                   "kind": "Instance"
@@ -4080,7 +2640,7 @@
           },
           "valueType": {
             "dataObjectType": {
-              "name": ""
+              "name": "string"
             }
           },
           "kind": "Instance"
@@ -4124,7 +2684,7 @@
           },
           "valueType": {
             "dataObjectType": {
-              "name": ""
+              "name": "string"
             }
           },
           "kind": "Instance"
@@ -4246,7 +2806,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": ""
+                      "name": "string"
                     }
                   },
                   "kind": "Instance"
@@ -4330,7 +2890,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": ""
+                      "name": "string"
                     }
                   },
                   "kind": "Instance"
@@ -4450,7 +3010,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": ""
+                      "name": "string"
                     }
                   },
                   "kind": "Instance"
@@ -7846,70 +6406,6 @@
     {
       "identification": {
         "idType": "IRI",
-        "id": "https://admin-shell.io/SemanticIdNotAvailable /1/1 "
-      },
-      "administration": {
-        "version": "",
-        "revision": "1"
-      },
-      "idShort": "",
-      "modelType": {
-        "name": "ConceptDescription"
-      },
-      "embeddedDataSpecifications": [
-        {
-          "dataSpecification": {
-            "keys": [
-              {
-                "type": "GlobalReference",
-                "local": false,
-                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
-                "index": 0,
-                "idType": "IRI"
-              }
-            ]
-          },
-          "dataSpecificationContent": {
-            "preferredName": [
-              {
-                "language": "de",
-                "text": "Merkmal ohne SemanticId"
-              },
-              {
-                "language": "en",
-                "text": "Property without SemanticId"
-              }
-            ],
-            "shortName": [
-              {
-                "language": "EN",
-                "text": "Property without SemanticId"
-              },
-              {
-                "language": "DE",
-                "text": "Merkmal ohne SemanticId"
-              }
-            ],
-            "unit": "",
-            "dataType": "STRING",
-            "definition": [
-              {
-                "language": "de",
-                "text": "Merkmal, welches nicht über ein gebräuchliches Klassifikationssystem beschrieben ist"
-              },
-              {
-                "language": "en",
-                "text": "Property that is not described using a common classification system"
-              }
-            ]
-          }
-        }
-      ],
-      "isCaseOf": []
-    },
-    {
-      "identification": {
-        "idType": "IRI",
         "id": "https://admin-shell.io/sandbox/SG2/TechnicalData/MainSection/1/1"
       },
       "administration": {
@@ -8598,7 +7094,7 @@
               }
             ],
             "unit": "%",
-            "dataType": "",
+            "dataType": "REAL_MEASURE",
             "definition": []
           }
         }
@@ -8642,7 +7138,7 @@
               }
             ],
             "unit": "°C",
-            "dataType": "",
+            "dataType": "REAL_MEASURE",
             "definition": []
           }
         }
@@ -9092,16 +7588,6 @@
     },
     {
       "identification": {
-        "idType": "IRI",
-        "id": "https://example.com/ids/cd/4523_2112_2122_1025"
-      },
-      "idShort": "",
-      "modelType": {
-        "name": "ConceptDescription"
-      }
-    },
-    {
-      "identification": {
         "idType": "IRDI",
         "id": "0173-1#02-AAB606#007"
       },
@@ -9213,7 +7699,7 @@
             ],
             "shortName": [
               {
-                "language": "EN?",
+                "language": "en",
                 "text": "GigEthPre"
               }
             ],
@@ -9458,6 +7944,79 @@
               "type": "GlobalReference",
               "local": false,
               "value": "0173-1#02-AAR578#001",
+              "index": 0,
+              "idType": "IRDI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "identification": {
+        "idType": "IRDI",
+        "id": "0173-1#02-AAG546#001"
+      },
+      "administration": {
+        "version": "",
+        "revision": "1"
+      },
+      "idShort": "NumOfHdmCon",
+      "category": "CONSTANT",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "de",
+                "text": "Anzahl der HDMI-Anschlüsse"
+              },
+              {
+                "language": "en",
+                "text": "number of HDMI-connections"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "de",
+                "text": "NumOfHdmCon"
+              }
+            ],
+            "unit": "",
+            "dataType": "REAL_COUNT",
+            "definition": [
+              {
+                "language": "de",
+                "text": "quantitative Angabe über Schnittstellen für volldigitale Übertragung von Audio- und Video-Daten an andere Geräte"
+              },
+              {
+                "language": "en",
+                "text": "quantitative specification of interfaces for fully-digital transfer of audio data and video data to other devices"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": [
+        {
+          "keys": [
+            {
+              "type": "GlobalReference",
+              "local": false,
+              "value": "0173-1#02-AAG546#001",
               "index": 0,
               "idType": "IRDI"
             }
