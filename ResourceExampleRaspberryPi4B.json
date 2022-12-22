@@ -387,16 +387,7 @@
               }
             ]
           },
-          "constraints": [
-            {
-              "type": "Multiplicity",
-              "valueType": "",
-              "value": "One",
-              "modelType": {
-                "name": "Qualifier"
-              }
-            }
-          ],
+          "constraints": [],
           "hasDataSpecification": [],
           "idShort": "GeneralInformation",
           "modelType": {
@@ -416,16 +407,7 @@
                   }
                 ]
               },
-              "constraints": [
-                {
-                  "type": "Multiplicity",
-                  "valueType": "",
-                  "value": "One",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                }
-              ],
+              "constraints": [],
               "hasDataSpecification": [],
               "idShort": "ManufacturerName",
               "modelType": {
@@ -440,7 +422,7 @@
             },
             {
               "mimeType": "image/png",
-              "value": "https://www.raspberrypi.com/app/uploads/2022/02/COLOUR-Raspberry-Pi-Symbol-Registered.png",
+              "value": "/aasx/files/COLOUR-Raspberry-Pi-Symbol-Registered_cc975bdb.png",
               "semanticId": {
                 "keys": [
                   {
@@ -452,16 +434,7 @@
                   }
                 ]
               },
-              "constraints": [
-                {
-                  "type": "Multiplicity",
-                  "valueType": "",
-                  "value": "ZeroToOne",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                }
-              ],
+              "constraints": [],
               "hasDataSpecification": [],
               "idShort": "ManufacturerLogo",
               "modelType": {
@@ -489,16 +462,7 @@
                   }
                 ]
               },
-              "constraints": [
-                {
-                  "type": "Multiplicity",
-                  "valueType": "",
-                  "value": "One",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                }
-              ],
+              "constraints": [],
               "hasDataSpecification": [],
               "idShort": "ManufacturerProductDesignation",
               "category": "CONSTANT",
@@ -520,16 +484,7 @@
                   }
                 ]
               },
-              "constraints": [
-                {
-                  "type": "Multiplicity",
-                  "valueType": "",
-                  "value": "ZeroToOne",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                }
-              ],
+              "constraints": [],
               "hasDataSpecification": [],
               "idShort": "ManufacturerPartNumber",
               "modelType": {
@@ -555,16 +510,7 @@
                   }
                 ]
               },
-              "constraints": [
-                {
-                  "type": "Multiplicity",
-                  "valueType": "",
-                  "value": "ZeroToOne",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                }
-              ],
+              "constraints": [],
               "hasDataSpecification": [],
               "idShort": "ManufacturerOrderCode",
               "modelType": {
@@ -579,7 +525,7 @@
             },
             {
               "mimeType": "image/png",
-              "value": "https://images.prismic.io/rpf-products/3a15d4da-46e3-4940-8be6-9fc7d201affe_RPi_4B_FEATURED.jpg?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&w=799&h=533",
+              "value": "/aasx/files/raspberry-pi-4-labelled-f5e5dcdf6a34223235f83261fa42d1e8_63f525eb.png",
               "semanticId": {
                 "keys": [
                   {
@@ -591,16 +537,7 @@
                   }
                 ]
               },
-              "constraints": [
-                {
-                  "type": "Multiplicity",
-                  "valueType": "",
-                  "value": "ZeroToMany",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                }
-              ],
+              "constraints": [],
               "hasDataSpecification": [],
               "idShort": "ProductImage",
               "modelType": {
@@ -625,16 +562,7 @@
               }
             ]
           },
-          "constraints": [
-            {
-              "type": "Multiplicity",
-              "valueType": "",
-              "value": "One",
-              "modelType": {
-                "name": "Qualifier"
-              }
-            }
-          ],
+          "constraints": [],
           "hasDataSpecification": [],
           "idShort": "ProductClassifications",
           "modelType": {
@@ -655,24 +583,15 @@
                   }
                 ]
               },
-              "constraints": [
-                {
-                  "type": "Multiplicity",
-                  "valueType": "",
-                  "value": "ZeroToMany",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                }
-              ],
+              "constraints": [],
               "hasDataSpecification": [],
-              "idShort": "ProductClassificationItem{00}",
+              "idShort": "ProductClassificationItem1",
               "modelType": {
                 "name": "SubmodelElementCollection"
               },
               "value": [
                 {
-                  "value": "",
+                  "value": "ECLASS",
                   "semanticId": {
                     "keys": [
                       {
@@ -684,18 +603,10 @@
                       }
                     ]
                   },
-                  "constraints": [
-                    {
-                      "type": "Multiplicity",
-                      "valueType": "",
-                      "value": "One",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    }
-                  ],
+                  "constraints": [],
                   "hasDataSpecification": [],
                   "idShort": "ProductClassificationSystem",
+                  "category": "CONSTANT",
                   "modelType": {
                     "name": "Property"
                   },
@@ -707,7 +618,7 @@
                   "kind": "Instance"
                 },
                 {
-                  "value": "",
+                  "value": "11.1",
                   "semanticId": {
                     "keys": [
                       {
@@ -719,16 +630,7 @@
                       }
                     ]
                   },
-                  "constraints": [
-                    {
-                      "type": "Multiplicity",
-                      "valueType": "",
-                      "value": "ZeroToOne",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    }
-                  ],
+                  "constraints": [],
                   "hasDataSpecification": [],
                   "idShort": "ClassificationSystemVersion",
                   "modelType": {
@@ -742,7 +644,7 @@
                   "kind": "Instance"
                 },
                 {
-                  "value": "",
+                  "value": "0173-1#01-AKJ317#009",
                   "semanticId": {
                     "keys": [
                       {
@@ -754,16 +656,7 @@
                       }
                     ]
                   },
-                  "constraints": [
-                    {
-                      "type": "Multiplicity",
-                      "valueType": "",
-                      "value": "One",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    }
-                  ],
+                  "constraints": [],
                   "hasDataSpecification": [],
                   "idShort": "ProductClassId",
                   "modelType": {
@@ -796,16 +689,7 @@
               }
             ]
           },
-          "constraints": [
-            {
-              "type": "Multiplicity",
-              "valueType": "",
-              "value": "One",
-              "modelType": {
-                "name": "Qualifier"
-              }
-            }
-          ],
+          "constraints": [],
           "hasDataSpecification": [],
           "idShort": "TechnicalProperties",
           "modelType": {
@@ -1391,16 +1275,7 @@
                   }
                 ]
               },
-              "constraints": [
-                {
-                  "type": "Multiplicity",
-                  "valueType": "",
-                  "value": "One",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                }
-              ],
+              "constraints": [],
               "hasDataSpecification": [],
               "idShort": "ValidDate",
               "modelType": {
@@ -1502,24 +1377,7 @@
               }
             ]
           },
-          "constraints": [
-            {
-              "type": "Multiplicity",
-              "valueType": "",
-              "value": "One",
-              "modelType": {
-                "name": "Qualifier"
-              }
-            },
-            {
-              "type": "FormInfo",
-              "valueType": "",
-              "value": "Legally valid designation of the natural or judicial person which is directly responsible for the design, production, packaging and labeling of a product in respect to its being brought into circulation.",
-              "modelType": {
-                "name": "Qualifier"
-              }
-            }
-          ],
+          "constraints": [],
           "hasDataSpecification": [],
           "idShort": "ManufacturerName",
           "category": "PARAMETER",
@@ -1548,24 +1406,7 @@
               }
             ]
           },
-          "constraints": [
-            {
-              "type": "Multiplicity",
-              "valueType": "",
-              "value": "One",
-              "modelType": {
-                "name": "Qualifier"
-              }
-            },
-            {
-              "type": "FormInfo",
-              "valueType": "",
-              "value": "Short description of the product (short text).",
-              "modelType": {
-                "name": "Qualifier"
-              }
-            }
-          ],
+          "constraints": [],
           "hasDataSpecification": [],
           "idShort": "ManufacturerProductDesignation",
           "category": "PARAMETER",
@@ -1588,24 +1429,7 @@
               }
             ]
           },
-          "constraints": [
-            {
-              "type": "Multiplicity",
-              "valueType": "",
-              "value": "One",
-              "modelType": {
-                "name": "Qualifier"
-              }
-            },
-            {
-              "type": "FormInfo",
-              "valueType": "",
-              "value": "Address information of a business partner.",
-              "modelType": {
-                "name": "Qualifier"
-              }
-            }
-          ],
+          "constraints": [],
           "hasDataSpecification": [],
           "idShort": "Address",
           "category": "VARIABLE",
@@ -1628,24 +1452,7 @@
                   }
                 ]
               },
-              "constraints": [
-                {
-                  "type": "Multiplicity",
-                  "valueType": "",
-                  "value": "ZeroToOne",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                },
-                {
-                  "type": "FormInfo",
-                  "valueType": "",
-                  "value": "Administrative section within an organisation where a business partner is located.",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                }
-              ],
+              "constraints": [],
               "hasDataSpecification": [],
               "idShort": "Department",
               "category": "VARIABLE",
@@ -1669,24 +1476,7 @@
                   }
                 ]
               },
-              "constraints": [
-                {
-                  "type": "Multiplicity",
-                  "valueType": "",
-                  "value": "One",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                },
-                {
-                  "type": "FormInfo",
-                  "valueType": "",
-                  "value": "Street name and house number.",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                }
-              ],
+              "constraints": [],
               "hasDataSpecification": [],
               "idShort": "Street",
               "category": "PARAMETER",
@@ -1710,24 +1500,7 @@
                   }
                 ]
               },
-              "constraints": [
-                {
-                  "type": "Multiplicity",
-                  "valueType": "",
-                  "value": "One",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                },
-                {
-                  "type": "FormInfo",
-                  "valueType": "",
-                  "value": "ZIP code of address.",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                }
-              ],
+              "constraints": [],
               "hasDataSpecification": [],
               "idShort": "Zipcode",
               "category": "VARIABLE",
@@ -1751,24 +1524,7 @@
                   }
                 ]
               },
-              "constraints": [
-                {
-                  "type": "Multiplicity",
-                  "valueType": "",
-                  "value": "ZeroToOne",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                },
-                {
-                  "type": "FormInfo",
-                  "valueType": "",
-                  "value": "P.O. box number.",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                }
-              ],
+              "constraints": [],
               "hasDataSpecification": [],
               "idShort": "POBox",
               "category": "VARIABLE",
@@ -1792,24 +1548,7 @@
                   }
                 ]
               },
-              "constraints": [
-                {
-                  "type": "Multiplicity",
-                  "valueType": "",
-                  "value": "ZeroToOne",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                },
-                {
-                  "type": "FormInfo",
-                  "valueType": "",
-                  "value": "ZIP code of P.O. box address.",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                }
-              ],
+              "constraints": [],
               "hasDataSpecification": [],
               "idShort": "ZipCodeOfPOBox",
               "category": "VARIABLE",
@@ -1833,24 +1572,7 @@
                   }
                 ]
               },
-              "constraints": [
-                {
-                  "type": "Multiplicity",
-                  "valueType": "",
-                  "value": "One",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                },
-                {
-                  "type": "FormInfo",
-                  "valueType": "",
-                  "value": "Town or city name.",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                }
-              ],
+              "constraints": [],
               "hasDataSpecification": [],
               "idShort": "CityTown",
               "category": "VARIABLE",
@@ -1874,24 +1596,7 @@
                   }
                 ]
               },
-              "constraints": [
-                {
-                  "type": "Multiplicity",
-                  "valueType": "",
-                  "value": "ZeroToOne",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                },
-                {
-                  "type": "FormInfo",
-                  "valueType": "",
-                  "value": "Federal state; a part of a state.",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                }
-              ],
+              "constraints": [],
               "hasDataSpecification": [],
               "idShort": "StateCounty",
               "category": "VARIABLE",
@@ -1915,24 +1620,7 @@
                   }
                 ]
               },
-              "constraints": [
-                {
-                  "type": "Multiplicity",
-                  "valueType": "",
-                  "value": "One",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                },
-                {
-                  "type": "FormInfo",
-                  "valueType": "",
-                  "value": "Country code defined according to DIN EN ISO 3166-1.",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                }
-              ],
+              "constraints": [],
               "hasDataSpecification": [],
               "idShort": "NationalCode",
               "category": "VARIABLE",
@@ -1956,24 +1644,7 @@
                   }
                 ]
               },
-              "constraints": [
-                {
-                  "type": "Multiplicity",
-                  "valueType": "",
-                  "value": "ZeroToOne",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                },
-                {
-                  "type": "FormInfo",
-                  "valueType": "",
-                  "value": "VAT (value added tax) identification number of the business partner.",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                }
-              ],
+              "constraints": [],
               "hasDataSpecification": [],
               "idShort": "VATNumber",
               "category": "VARIABLE",
@@ -1997,24 +1668,7 @@
                   }
                 ]
               },
-              "constraints": [
-                {
-                  "type": "Multiplicity",
-                  "valueType": "",
-                  "value": "ZeroToOne",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                },
-                {
-                  "type": "FormInfo",
-                  "valueType": "",
-                  "value": "Plain text characterizing address information for which there is no property.",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                }
-              ],
+              "constraints": [],
               "hasDataSpecification": [],
               "idShort": "AddressRemarks",
               "category": "VARIABLE",
@@ -2036,24 +1690,7 @@
                   }
                 ]
               },
-              "constraints": [
-                {
-                  "type": "Multiplicity",
-                  "valueType": "",
-                  "value": "ZeroToOne",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                },
-                {
-                  "type": "FormInfo",
-                  "valueType": "",
-                  "value": "Web site address where information about the product or contact is given.",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                }
-              ],
+              "constraints": [],
               "hasDataSpecification": [],
               "idShort": "AddressOfAdditionalLink",
               "category": "VARIABLE",
@@ -2081,24 +1718,7 @@
                   }
                 ]
               },
-              "constraints": [
-                {
-                  "type": "Multiplicity",
-                  "valueType": "",
-                  "value": "ZeroToMany",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                },
-                {
-                  "type": "FormInfo",
-                  "valueType": "",
-                  "value": "Phone number including type.",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                }
-              ],
+              "constraints": [],
               "hasDataSpecification": [],
               "idShort": "Phone",
               "category": "VARIABLE",
@@ -2121,24 +1741,7 @@
                       }
                     ]
                   },
-                  "constraints": [
-                    {
-                      "type": "Multiplicity",
-                      "valueType": "",
-                      "value": "One",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    },
-                    {
-                      "type": "FormInfo",
-                      "valueType": "",
-                      "value": "Complete telephone number to be called to reach a business partner.",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    }
-                  ],
+                  "constraints": [],
                   "hasDataSpecification": [],
                   "idShort": "TelephoneNumber",
                   "category": "VARIABLE",
@@ -2160,32 +1763,7 @@
                       }
                     ]
                   },
-                  "constraints": [
-                    {
-                      "type": "Multiplicity",
-                      "valueType": "",
-                      "value": "ZeroToOne",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    },
-                    {
-                      "type": "FormInfo",
-                      "valueType": "",
-                      "value": "Characterization of a telephone according to its location or usage.",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    },
-                    {
-                      "type": "FormChoices",
-                      "valueType": "",
-                      "value": "Office;Office mobile;Secretary;Substitute;Home;Private mobile",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    }
-                  ],
+                  "constraints": [],
                   "hasDataSpecification": [],
                   "idShort": "TypeOfTelephone",
                   "category": "VARIABLE",
@@ -2216,24 +1794,7 @@
                   }
                 ]
               },
-              "constraints": [
-                {
-                  "type": "Multiplicity",
-                  "valueType": "",
-                  "value": "ZeroToMany",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                },
-                {
-                  "type": "FormInfo",
-                  "valueType": "",
-                  "value": "Fax number including type.",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                }
-              ],
+              "constraints": [],
               "hasDataSpecification": [],
               "idShort": "Fax",
               "category": "VARIABLE",
@@ -2256,24 +1817,7 @@
                       }
                     ]
                   },
-                  "constraints": [
-                    {
-                      "type": "Multiplicity",
-                      "valueType": "",
-                      "value": "One",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    },
-                    {
-                      "type": "FormInfo",
-                      "valueType": "",
-                      "value": "Complete telephone number to be called to reach a business partner's fax machine.",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    }
-                  ],
+                  "constraints": [],
                   "hasDataSpecification": [],
                   "idShort": "FaxNumber",
                   "category": "VARIABLE",
@@ -2295,32 +1839,7 @@
                       }
                     ]
                   },
-                  "constraints": [
-                    {
-                      "type": "Multiplicity",
-                      "valueType": "",
-                      "value": "ZeroToOne",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    },
-                    {
-                      "type": "FormInfo",
-                      "valueType": "",
-                      "value": "Characterization of the fax according its location or usage.",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    },
-                    {
-                      "type": "FormChoices",
-                      "valueType": "",
-                      "value": "Office;Secretary;Home",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    }
-                  ],
+                  "constraints": [],
                   "hasDataSpecification": [],
                   "idShort": "TypeOfFaxNumber",
                   "category": "VARIABLE",
@@ -2351,24 +1870,7 @@
                   }
                 ]
               },
-              "constraints": [
-                {
-                  "type": "Multiplicity",
-                  "valueType": "",
-                  "value": "ZeroToMany",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                },
-                {
-                  "type": "FormInfo",
-                  "valueType": "",
-                  "value": "E-mail address and encryption method.",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                }
-              ],
+              "constraints": [],
               "hasDataSpecification": [],
               "idShort": "Email",
               "category": "VARIABLE",
@@ -2389,24 +1891,7 @@
                       }
                     ]
                   },
-                  "constraints": [
-                    {
-                      "type": "Multiplicity",
-                      "valueType": "",
-                      "value": "One",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    },
-                    {
-                      "type": "FormInfo",
-                      "valueType": "",
-                      "value": "Electronic mail address of a business partner.",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    }
-                  ],
+                  "constraints": [],
                   "hasDataSpecification": [],
                   "idShort": "EmailAddress",
                   "category": "VARIABLE",
@@ -2435,24 +1920,7 @@
                       }
                     ]
                   },
-                  "constraints": [
-                    {
-                      "type": "Multiplicity",
-                      "valueType": "",
-                      "value": "ZeroToOne",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    },
-                    {
-                      "type": "FormInfo",
-                      "valueType": "",
-                      "value": "Public part of an unsymmetrical key pair to sign or encrypt text or messages.",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    }
-                  ],
+                  "constraints": [],
                   "hasDataSpecification": [],
                   "idShort": "PublicKey",
                   "category": "VARIABLE",
@@ -2474,32 +1942,7 @@
                       }
                     ]
                   },
-                  "constraints": [
-                    {
-                      "type": "Multiplicity",
-                      "valueType": "",
-                      "value": "ZeroToOne",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    },
-                    {
-                      "type": "FormInfo",
-                      "valueType": "",
-                      "value": "Characterization of an e-mail address according to its location or usage.",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    },
-                    {
-                      "type": "FormChoices",
-                      "valueType": "",
-                      "value": "Office;Secretary;Substitute;Home",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    }
-                  ],
+                  "constraints": [],
                   "hasDataSpecification": [],
                   "idShort": "TypeOfEmailAddress",
                   "category": "VARIABLE",
@@ -2528,24 +1971,7 @@
                       }
                     ]
                   },
-                  "constraints": [
-                    {
-                      "type": "Multiplicity",
-                      "valueType": "",
-                      "value": "ZeroToOne",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    },
-                    {
-                      "type": "FormInfo",
-                      "valueType": "",
-                      "value": "Characterization of a public key according to its encryption process.",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    }
-                  ],
+                  "constraints": [],
                   "hasDataSpecification": [],
                   "idShort": "TypeOfPublickKey",
                   "category": "VARIABLE",
@@ -2575,24 +2001,7 @@
               }
             ]
           },
-          "constraints": [
-            {
-              "type": "Multiplicity",
-              "valueType": "",
-              "value": "One",
-              "modelType": {
-                "name": "Qualifier"
-              }
-            },
-            {
-              "type": "FormInfo",
-              "valueType": "",
-              "value": "2nd level of a 3 level manufacturer specific product hierarchy.",
-              "modelType": {
-                "name": "Qualifier"
-              }
-            }
-          ],
+          "constraints": [],
           "hasDataSpecification": [],
           "idShort": "ManufacturerProductFamily",
           "category": "PARAMETER",
@@ -2614,24 +2023,7 @@
               }
             ]
           },
-          "constraints": [
-            {
-              "type": "Multiplicity",
-              "valueType": "",
-              "value": "ZeroToOne",
-              "modelType": {
-                "name": "Qualifier"
-              }
-            },
-            {
-              "type": "FormInfo",
-              "valueType": "",
-              "value": "Unique combination of numbers and letters used to identify the device once it has been manufactured.",
-              "modelType": {
-                "name": "Qualifier"
-              }
-            }
-          ],
+          "constraints": [],
           "hasDataSpecification": [],
           "idShort": "SerialNumber",
           "category": "PARAMETER",
@@ -2658,24 +2050,7 @@
               }
             ]
           },
-          "constraints": [
-            {
-              "type": "Multiplicity",
-              "valueType": "",
-              "value": "One",
-              "modelType": {
-                "name": "Qualifier"
-              }
-            },
-            {
-              "type": "FormInfo",
-              "valueType": "",
-              "value": "Year as completion date of object.",
-              "modelType": {
-                "name": "Qualifier"
-              }
-            }
-          ],
+          "constraints": [],
           "hasDataSpecification": [],
           "idShort": "YearOfConstruction",
           "category": "PARAMETER",
@@ -2703,24 +2078,7 @@
               }
             ]
           },
-          "constraints": [
-            {
-              "type": "Multiplicity",
-              "valueType": "",
-              "value": "ZeroToOne",
-              "modelType": {
-                "name": "Qualifier"
-              }
-            },
-            {
-              "type": "FormInfo",
-              "valueType": "",
-              "value": "Collection of product markings.",
-              "modelType": {
-                "name": "Qualifier"
-              }
-            }
-          ],
+          "constraints": [],
           "hasDataSpecification": [],
           "idShort": "Markings",
           "category": "VARIABLE",
@@ -2742,24 +2100,7 @@
                   }
                 ]
               },
-              "constraints": [
-                {
-                  "type": "Multiplicity",
-                  "valueType": "",
-                  "value": "OneToMany",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                },
-                {
-                  "type": "FormInfo",
-                  "valueType": "",
-                  "value": "Individual information about the marking labelled on the device.",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                }
-              ],
+              "constraints": [],
               "hasDataSpecification": [],
               "idShort": "Marking",
               "category": "VARIABLE",
@@ -2780,24 +2121,7 @@
                       }
                     ]
                   },
-                  "constraints": [
-                    {
-                      "type": "Multiplicity",
-                      "valueType": "",
-                      "value": "One",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    },
-                    {
-                      "type": "FormInfo",
-                      "valueType": "",
-                      "value": "Common name of the marking.",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    }
-                  ],
+                  "constraints": [],
                   "hasDataSpecification": [],
                   "idShort": "MarkingName",
                   "category": "VARIABLE",
@@ -2825,24 +2149,7 @@
                       }
                     ]
                   },
-                  "constraints": [
-                    {
-                      "type": "Multiplicity",
-                      "valueType": "",
-                      "value": "One",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    },
-                    {
-                      "type": "FormInfo",
-                      "valueType": "",
-                      "value": "Common picture or logo of the marking.",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    }
-                  ],
+                  "constraints": [],
                   "hasDataSpecification": [],
                   "idShort": "MarkingFile",
                   "category": "VARIABLE",
@@ -2864,24 +2171,7 @@
                       }
                     ]
                   },
-                  "constraints": [
-                    {
-                      "type": "Multiplicity",
-                      "valueType": "",
-                      "value": "ZeroToMany",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    },
-                    {
-                      "type": "FormInfo",
-                      "valueType": "",
-                      "value": "Where applicable, additional information on the marking in plain text.",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    }
-                  ],
+                  "constraints": [],
                   "hasDataSpecification": [],
                   "idShort": "MarkingAdditionalText",
                   "category": "VARIABLE",
@@ -2915,24 +2205,7 @@
               }
             ]
           },
-          "constraints": [
-            {
-              "type": "Multiplicity",
-              "valueType": "",
-              "value": "ZeroToOne",
-              "modelType": {
-                "name": "Qualifier"
-              }
-            },
-            {
-              "type": "FormInfo",
-              "valueType": "",
-              "value": "Collection of asset or guideline specific properties.",
-              "modelType": {
-                "name": "Qualifier"
-              }
-            }
-          ],
+          "constraints": [],
           "hasDataSpecification": [],
           "idShort": "AssetSpecificProperties",
           "category": "VARIABLE",
@@ -2954,24 +2227,7 @@
                   }
                 ]
               },
-              "constraints": [
-                {
-                  "type": "Multiplicity",
-                  "valueType": "",
-                  "value": "OneToMany",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                },
-                {
-                  "type": "FormInfo",
-                  "valueType": "",
-                  "value": "Asset specific nameplate information required by guideline, stipulation or legislation.",
-                  "modelType": {
-                    "name": "Qualifier"
-                  }
-                }
-              ],
+              "constraints": [],
               "hasDataSpecification": [],
               "idShort": "GuidelineSpecificProperties",
               "category": "VARIABLE",
@@ -2992,16 +2248,7 @@
                       }
                     ]
                   },
-                  "constraints": [
-                    {
-                      "type": "Multiplicity",
-                      "valueType": "",
-                      "value": "One",
-                      "modelType": {
-                        "name": "Qualifier"
-                      }
-                    }
-                  ],
+                  "constraints": [],
                   "hasDataSpecification": [],
                   "idShort": "GuidelineForConformityDeclaration",
                   "category": "VARIABLE",
@@ -6165,6 +5412,7 @@
         "id": "https://admin-shell.io/sandbox/SG2/TechnicalData/ProductClassificationSystem/1/1"
       },
       "idShort": "ProductClassificationSystem",
+      "category": "CONSTANT",
       "modelType": {
         "name": "ConceptDescription"
       },
