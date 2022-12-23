@@ -308,7 +308,7 @@
           },
           "valueType": {
             "dataObjectType": {
-              "name": "dayTimeDuration"
+              "name": ""
             }
           },
           "kind": "Template",
@@ -980,7 +980,7 @@
               },
               "valueType": {
                 "dataObjectType": {
-                  "name": "String"
+                  "name": ""
                 }
               },
               "kind": "Template",
@@ -1064,7 +1064,7 @@
               },
               "valueType": {
                 "dataObjectType": {
-                  "name": "String"
+                  "name": ""
                 }
               },
               "kind": "Template",
@@ -1336,7 +1336,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": "String"
+                      "name": ""
                     }
                   },
                   "kind": "Template",
@@ -1490,7 +1490,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": "String"
+                      "name": ""
                     }
                   },
                   "kind": "Template",
@@ -1564,7 +1564,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": "String"
+                      "name": ""
                     }
                   },
                   "kind": "Template"
@@ -1637,7 +1637,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": "String"
+                      "name": ""
                     }
                   },
                   "kind": "Template",
@@ -1743,7 +1743,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": "String"
+                      "name": ""
                     }
                   },
                   "kind": "Template"
@@ -1778,7 +1778,7 @@
                   },
                   "valueType": {
                     "dataObjectType": {
-                      "name": "String"
+                      "name": ""
                     }
                   },
                   "kind": "Template"
@@ -2248,7 +2248,7 @@
               },
               "valueType": {
                 "dataObjectType": {
-                  "name": "String"
+                  "name": ""
                 }
               },
               "kind": "Template"
@@ -2303,7 +2303,15 @@
     },
     {
       "semanticId": {
-        "keys": []
+        "keys": [
+          {
+            "type": "Submodel",
+            "local": true,
+            "value": "https://fab-os.org/Requirements",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
       },
       "identification": {
         "idType": "IRI",
@@ -2317,38 +2325,83 @@
       "submodelElements": [
         {
           "ordered": false,
-          "allowDuplicates": false,
+          "allowDuplicates": true,
           "semanticId": {
-            "keys": []
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://fab-os.org/Requirements/Requirement/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
           },
-          "idShort": "Constraints",
+          "idShort": "DeploymentResourceRequirements",
           "category": "CONSTANT",
           "modelType": {
             "name": "SubmodelElementCollection"
           },
           "value": [
             {
-              "value": "",
+              "ordered": false,
+              "allowDuplicates": true,
               "semanticId": {
                 "keys": [
                   {
                     "type": "ConceptDescription",
                     "local": true,
-                    "value": "0173-1#02-BAB457#005",
+                    "value": "https://fab-os.org/Requirements/Requirement/Any/1/0",
                     "index": 0,
-                    "idType": "IRDI"
+                    "idType": "IRI"
                   }
                 ]
               },
-              "idShort": "ProArc",
+              "idShort": "Any{00}",
+              "category": "CONSTANT",
               "modelType": {
-                "name": "Property"
+                "name": "SubmodelElementCollection"
               },
-              "valueType": {
-                "dataObjectType": {
-                  "name": "string"
+              "value": [
+                {
+                  "value": "someValue",
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "Property",
+                        "local": false,
+                        "value": "someSemanticId",
+                        "index": 0,
+                        "idType": "Custom"
+                      }
+                    ]
+                  },
+                  "constraints": [
+                    {
+                      "semanticId": {
+                        "keys": []
+                      },
+                      "type": "parentSubmodelSemanticId",
+                      "valueType": "",
+                      "value": "http://admin-shell.io/sandbox/SG2/TechnicalData/Submodel/1/1",
+                      "modelType": {
+                        "name": "Qualifier"
+                      }
+                    }
+                  ],
+                  "idShort": "Property{00}",
+                  "category": "VARIABLE",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": ""
+                    }
+                  },
+                  "kind": "Instance"
                 }
-              },
+              ],
               "kind": "Instance"
             }
           ],
@@ -2356,66 +2409,23 @@
         },
         {
           "ordered": false,
-          "allowDuplicates": true,
+          "allowDuplicates": false,
           "semanticId": {
-            "keys": []
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://fab-os.org/Requirements/Requirement/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
           },
-          "idShort": "Any",
+          "idShort": "OperationRequirements",
           "modelType": {
             "name": "SubmodelElementCollection"
           },
-          "value": [
-            {
-              "value": "ARM11",
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "0173-1#02-BAB457#005",
-                    "index": 0,
-                    "idType": "IRDI"
-                  }
-                ]
-              },
-              "idShort": "ProArc",
-              "category": "CONSTANT",
-              "modelType": {
-                "name": "Property"
-              },
-              "valueType": {
-                "dataObjectType": {
-                  "name": "string"
-                }
-              },
-              "kind": "Instance"
-            },
-            {
-              "value": "ARM Cortex-A ",
-              "semanticId": {
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "local": true,
-                    "value": "0173-1#02-BAB457#005",
-                    "index": 0,
-                    "idType": "IRDI"
-                  }
-                ]
-              },
-              "idShort": "ProArc",
-              "category": "CONSTANT",
-              "modelType": {
-                "name": "Property"
-              },
-              "valueType": {
-                "dataObjectType": {
-                  "name": "string"
-                }
-              },
-              "kind": "Instance"
-            }
-          ],
+          "value": [],
           "kind": "Instance"
         }
       ]
@@ -4324,6 +4334,28 @@
           ]
         }
       ]
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://fab-os.org/Requirements/Requirement/Any/1/0"
+      },
+      "idShort": "RequirementsRequirementAny",
+      "category": "CONSTANT",
+      "modelType": {
+        "name": "ConceptDescription"
+      }
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://fab-os.org/Requirements/Requirement/1/0"
+      },
+      "idShort": "RequirementsRequirement",
+      "category": "CONSTANT",
+      "modelType": {
+        "name": "ConceptDescription"
+      }
     }
   ]
 }
